@@ -1,0 +1,3701 @@
+{
+  "pharmacy": {
+    "colors": {
+        "background": {
+            "alert": {
+                "close": {
+                    "ondark": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "onlight": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darker"
+                    }
+                },
+                "inline": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lighter"
+                    },
+                    "error": {
+                        "description": "TODO: needs to change but no alternative currently",
+                        "type": "color",
+                        "value": "#fdf0f0"
+                    },
+                    "helpinfo": {
+                        "description": "TODO: needs to change but no alternative currently",
+                        "type": "color",
+                        "value": "#edf8fd"
+                    },
+                    "latest": {
+                        "description": "TODO: need to add a color token for this",
+                        "type": "color",
+                        "value": "#fff6ff"
+                    },
+                    "success": {
+                        "description": "TODO: needs to change but no alternative currently",
+                        "type": "color",
+                        "value": "#f1f6ed"
+                    },
+                    "warning": {
+                        "description": "TODO: needs to change but no alternative currently",
+                        "type": "color",
+                        "value": "#fffaef"
+                    }
+                },
+                "pagebanner": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lighter"
+                    },
+                    "colorbar": {
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.grayscale.darker"
+                        },
+                        "emergency": {
+                            "type": "color",
+                            "value": "$colors.utility.error.standard"
+                        },
+                        "error": {
+                            "type": "color",
+                            "value": "$colors.utility.error.standard"
+                        },
+                        "helpinfo": {
+                            "type": "color",
+                            "value": "$colors.utility.help.standard"
+                        },
+                        "success": {
+                            "type": "color",
+                            "value": "$colors.utility.success.standard"
+                        },
+                        "warning": {
+                            "type": "color",
+                            "value": "$colors.utility.warning.standard"
+                        }
+                    },
+                    "emergency": {
+                        "description": "TODO: needs to change but no alternative currently",
+                        "type": "color",
+                        "value": "#fdf0f0"
+                    }
+                },
+                "sitebanner": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lighter"
+                    },
+                    "colorbar": {
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.grayscale.darker"
+                        },
+                        "emergency": {
+                            "type": "color",
+                            "value": "$colors.utility.error.standard"
+                        },
+                        "error": {
+                            "type": "color",
+                            "value": "$colors.utility.error.standard"
+                        },
+                        "helpinfo": {
+                            "type": "color",
+                            "value": "$colors.utility.help.standard"
+                        },
+                        "success": {
+                            "type": "color",
+                            "value": "$colors.utility.success.standard"
+                        },
+                        "warning": {
+                            "type": "color",
+                            "value": "$colors.utility.warning.standard"
+                        }
+                    },
+                    "emergency": {
+                        "description": "TODO: needs to change but no alternative currently",
+                        "type": "color",
+                        "value": "#fdf0f0"
+                    }
+                }
+            },
+            "badge": {
+                "error": {
+                    "clear": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darkest"
+                    },
+                    "dark": {
+                        "type": "color",
+                        "value": "$colors.utility.error.standard"
+                    },
+                    "light": {
+                        "description": "TODO: needs to change but no alternative currently",
+                        "type": "color",
+                        "value": "#fdf0f0"
+                    },
+                    "lightest": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    }
+                },
+                "info": {
+                    "clear": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darkest"
+                    },
+                    "dark": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "light": {
+                        "description": "TODO: needs to change but no alternative currently",
+                        "type": "color",
+                        "value": "#edf8fd"
+                    },
+                    "lightest": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    }
+                },
+                "latest": {
+                    "clear": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "dark": {
+                        "type": "color",
+                        "value": "#973894"
+                    },
+                    "light": {
+                        "type": "color",
+                        "value": "#FFF6FF"
+                    },
+                    "lightest": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    }
+                },
+                "neutral": {
+                    "clear": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darkest"
+                    },
+                    "dark": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darker"
+                    },
+                    "light": {
+                        "type": "color",
+                        "value": "$colors.grayscale.light"
+                    },
+                    "lightest": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    }
+                },
+                "success": {
+                    "clear": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darkest"
+                    },
+                    "dark": {
+                        "type": "color",
+                        "value": "$colors.utility.success.standard"
+                    },
+                    "light": {
+                        "description": "TODO: needs to change but no alternative currently",
+                        "type": "color",
+                        "value": "#f1f6ed"
+                    },
+                    "lightest": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    }
+                },
+                "warning": {
+                    "clear": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darkest"
+                    },
+                    "dark": {
+                        "type": "color",
+                        "value": "$colors.utility.warning.standard"
+                    },
+                    "light": {
+                        "description": "TODO: needs to change but no alternative currently",
+                        "type": "color",
+                        "value": "#fffaef"
+                    },
+                    "lightest": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    }
+                }
+            },
+            "button": {
+                "large": {
+                    "emphasized": {
+                        "active": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.yellow-150"
+                        },
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.brand.yellow"
+                        },
+                        "disabled": {
+                            "type": "color",
+                            "value": "$colors.grayscale.medium"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.yellow-150"
+                        },
+                        "hover": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.yellow-150"
+                        }
+                    },
+                    "primary": {
+                        "active": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.dark-blue.150"
+                        },
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "disabled": {
+                            "type": "color",
+                            "value": "$colors.grayscale.medium"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.dark-blue.150"
+                        },
+                        "hover": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.dark-blue.150"
+                        }
+                    },
+                    "secondary": {
+                        "active": {
+                            "type": "color",
+                            "value": "$colors.grayscale.lightest"
+                        },
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.grayscale.lightest"
+                        },
+                        "disabled": {
+                            "type": "color",
+                            "value": "$colors.grayscale.medium"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.grayscale.lightest"
+                        },
+                        "hover": {
+                            "type": "color",
+                            "value": "$colors.grayscale.lightest"
+                        }
+                    }
+                },
+                "small": {
+                    "emphasized": {
+                        "active": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.yellow-150"
+                        },
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.brand.yellow"
+                        },
+                        "disabled": {
+                            "type": "color",
+                            "value": "$colors.grayscale.medium"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.yellow-150"
+                        },
+                        "hover": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.yellow-150"
+                        }
+                    },
+                    "primary": {
+                        "active": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.dark-blue.150"
+                        },
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "disabled": {
+                            "type": "color",
+                            "value": "$colors.grayscale.medium"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.dark-blue.150"
+                        },
+                        "hover": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.dark-blue.150"
+                        }
+                    },
+                    "secondary": {
+                        "active": {
+                            "type": "color",
+                            "value": "$colors.grayscale.lightest"
+                        },
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.grayscale.lightest"
+                        },
+                        "disabled": {
+                            "type": "color",
+                            "value": "$colors.grayscale.medium"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.grayscale.lightest"
+                        },
+                        "hover": {
+                            "type": "color",
+                            "value": "$colors.grayscale.lightest"
+                        }
+                    }
+                }
+            },
+            "checkbox": {
+                "checked": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "checkmark": {
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.grayscale.lightest"
+                        },
+                        "disabled": {
+                            "type": "color",
+                            "value": "$colors.brand.gray"
+                        },
+                        "error": {
+                            "type": "color",
+                            "value": "$colors.utility.error.standard"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.grayscale.lightest"
+                        },
+                        "readonly": {
+                            "type": "color",
+                            "value": "$colors.brand.gray"
+                        }
+                    },
+                    "disabled": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lighter"
+                    },
+                    "error": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "focus": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "readonly": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lighter"
+                    }
+                },
+                "unchecked": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "focus": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    }
+                }
+            },
+            "chip": {
+                "base": {
+                    "description": "TODO: needs to change but no alternative currently",
+                    "type": "color",
+                    "value": "#def1f9"
+                }
+            },
+            "datepicker": {
+                "calendar": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    }
+                },
+                "day": {
+                    "active": {
+                        "type": "color",
+                        "value": "$colors.utility.help.standard"
+                    },
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lighter"
+                    },
+                    "hover": {
+                        "description": "TODO: needs to change but no alternative currently",
+                        "type": "color",
+                        "value": "#99d7f2"
+                    },
+                    "range": {
+                        "description": "TODO: needs to change but no alternative currently",
+                        "type": "color",
+                        "value": "#99d7f2"
+                    },
+                    "today": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lighter"
+                    },
+                    "unavailable": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lighter"
+                    }
+                }
+            },
+            "divider": {
+                "base": {
+                    "type": "color",
+                    "value": "$colors.brand.dark-blue"
+                },
+                "on-dark": {
+                    "type": "color",
+                    "value": "#819EDA"
+                },
+                "on-light": {
+                    "type": "color",
+                    "value": "#B3B3B3"
+                }
+            },
+            "footer": {
+                "cobrand-postauth": {
+                    "type": "color",
+                    "value": "$colors.brand.dark-blue"
+                },
+                "cobrand-preauth": {
+                    "type": "color",
+                    "value": "$colors.brand.dark-blue"
+                },
+                "postauth": {
+                    "type": "color",
+                    "value": "$colors.brand.dark-blue"
+                },
+                "preauth": {
+                    "type": "color",
+                    "value": "$colors.brand.dark-blue"
+                },
+                "submenu": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.brand.white"
+                    },
+                    "focus": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "hover": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    }
+                }
+            },
+            "formfield": {
+                "base": {
+                    "type": "color",
+                    "value": "$colors.grayscale.lightest"
+                },
+                "disabled": {
+                    "type": "color",
+                    "value": "$colors.grayscale.lighter"
+                },
+                "error": {
+                    "type": "color",
+                    "value": "$colors.grayscale.lightest"
+                },
+                "readonly": {
+                    "type": "color",
+                    "value": "$colors.grayscale.lighter"
+                },
+                "success": {
+                    "type": "color",
+                    "value": "$colors.grayscale.lightest"
+                }
+            },
+            "header": {
+                "cart-counter": {
+                    "cobrand-mobile": {
+                        "type": "color",
+                        "value": "$colors.brand.yellow"
+                    },
+                    "cobrand-postauth": {
+                        "type": "color",
+                        "value": "$colors.brand.yellow"
+                    },
+                    "cobrand-preauth": {
+                        "type": "color",
+                        "value": "$colors.brand.yellow"
+                    },
+                    "logo-only": {
+                        "type": "color",
+                        "value": "$colors.brand.yellow"
+                    },
+                    "on-mainnav": {
+                        "type": "color",
+                        "value": "$colors.brand.yellow"
+                    },
+                    "postauth": {
+                        "type": "color",
+                        "value": "$colors.brand.yellow"
+                    },
+                    "preauth": {
+                        "type": "color",
+                        "value": "$colors.brand.yellow"
+                    }
+                },
+                "cobrand-postauth": {
+                    "type": "color",
+                    "value": "$colors.grayscale.lightest"
+                },
+                "cobrand-preauth": {
+                    "type": "color",
+                    "value": "$colors.grayscale.lightest"
+                },
+                "logo-only": {
+                    "type": "color",
+                    "value": "$colors.grayscale.lightest"
+                },
+                "postauth": {
+                    "type": "color",
+                    "value": "$colors.grayscale.lightest"
+                },
+                "preauth": {
+                    "type": "color",
+                    "value": "$colors.grayscale.lightest"
+                }
+            },
+            "mainnav": {
+                "bar": {
+                    "cobrand-mobile": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "cobrand-postauth": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "cobrand-preauth": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "postauth": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "preauth": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    }
+                },
+                "menu-item": {
+                    "cobrand-postauth": {
+                        "active": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.grayscale.lightest"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "hover": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        }
+                    },
+                    "cobrand-preauth": {
+                        "active": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "hover": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        }
+                    },
+                    "postauth": {
+                        "active": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "hover": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        }
+                    },
+                    "preauth": {
+                        "active": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "hover": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        }
+                    }
+                },
+                "mobilemenu": {
+                    "cobrand-postauth": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "cobrand-preauth": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "postauth": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "preauth": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    }
+                },
+                "submenu": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "desktop": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "mobile": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    }
+                },
+                "submenu-item": {
+                    "cobrand-postauth": {
+                        "active": {
+                            "type": "color",
+                            "value": "$colors.brand.yellow"
+                        },
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.grayscale.lightest"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.yellow"
+                        },
+                        "hover": {
+                            "type": "color",
+                            "value": "$colors.brand.yellow"
+                        }
+                    },
+                    "cobrand-preauth": {
+                        "active": {
+                            "type": "color",
+                            "value": "$colors.brand.yellow"
+                        },
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.grayscale.lightest"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.yellow"
+                        },
+                        "hover": {
+                            "type": "color",
+                            "value": "$colors.brand.yellow"
+                        }
+                    },
+                    "postauth": {
+                        "active": {
+                            "type": "color",
+                            "value": "$colors.brand.yellow"
+                        },
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.grayscale.lightest"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.yellow"
+                        },
+                        "hover": {
+                            "type": "color",
+                            "value": "$colors.brand.yellow"
+                        }
+                    },
+                    "preauth": {
+                        "active": {
+                            "type": "color",
+                            "value": "$colors.brand.yellow"
+                        },
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.grayscale.lightest"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.yellow"
+                        },
+                        "hover": {
+                            "type": "color",
+                            "value": "$colors.brand.yellow"
+                        }
+                    }
+                }
+            },
+            "modal": {
+                "content": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lighter"
+                    }
+                },
+                "footer": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    }
+                }
+            },
+            "overlay": {
+                "base": {
+                    "type": "color",
+                    "value": "$colors.grayscale.darkest"
+                }
+            },
+            "overpanel": {
+                "content": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    }
+                },
+                "header": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    }
+                }
+            },
+            "pagination": {
+                "active": {
+                    "type": "color",
+                    "value": "$colors.brand.dark-blue"
+                },
+                "base": {
+                    "type": "color",
+                    "value": "$colors.grayscale.lightest"
+                },
+                "focus": {
+                    "description": "TODO: needs to change but no alternative currently",
+                    "type": "color",
+                    "value": "#edf8fd"
+                },
+                "hover": {
+                    "description": "TODO: needs to change but no alternative currently",
+                    "type": "color",
+                    "value": "#edf8fd"
+                }
+            },
+            "popover": {
+                "dark": {
+                    "type": "color",
+                    "value": "$colors.grayscale.darker"
+                },
+                "light": {
+                    "type": "color",
+                    "value": "$colors.grayscale.lightest"
+                }
+            },
+            "progressmeter": {
+                "active": {
+                    "type": "color",
+                    "value": "$colors.brand.light-blue"
+                },
+                "base": {
+                    "type": "color",
+                    "value": "$colors.grayscale.light"
+                }
+            },
+            "progresssteps": {
+                "base": {
+                    "type": "color",
+                    "value": "$colors.brand.dark-blue"
+                },
+                "icon": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "uncompleted": {
+                        "type": "color",
+                        "value": "$colors.grayscale.dark"
+                    }
+                },
+                "uncompleted": {
+                    "type": "color",
+                    "value": "$colors.grayscale.dark"
+                }
+            },
+            "radio": {
+                "checked": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "disabled": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lighter"
+                    },
+                    "error": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "focus": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "readonly": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lighter"
+                    }
+                },
+                "checkmark": {
+                    "default": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "disabled": {
+                        "type": "color",
+                        "value": "$colors.brand.gray"
+                    },
+                    "error": {
+                        "type": "color",
+                        "value": "$colors.utility.error.standard"
+                    },
+                    "focus": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "readonly": {
+                        "type": "color",
+                        "value": "$colors.brand.gray"
+                    }
+                },
+                "unchecked": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "focus": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    }
+                }
+            },
+            "rangeslider": {
+                "fill": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.brand.light-blue"
+                    },
+                    "disabled": {
+                        "type": "color",
+                        "value": "$colors.grayscale.dark"
+                    }
+                },
+                "knob": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "disabled": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lighter"
+                    }
+                },
+                "track": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.light"
+                    },
+                    "disabled": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lighter"
+                    }
+                }
+            },
+            "input": {
+                "item": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "focus": {
+                        "description": "TODO: needs to change but no alternative currently",
+                        "type": "color",
+                        "value": "#ccebf9"
+                    },
+                    "hover": {
+                        "description": "TODO: needs to change but no alternative currently",
+                        "type": "color",
+                        "value": "#ccebf9"
+                    }
+                },
+                "list": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    }
+                }
+            },
+            "skeletonloader": {
+                "darkest": {
+                    "type": "color",
+                    "value": "$colors.grayscale.light"
+                },
+                "lightest": {
+                    "type": "color",
+                    "value": "$colors.grayscale.lighter"
+                }
+            },
+            "strengthmeter": {
+                "base": {
+                    "type": "color",
+                    "value": "$colors.grayscale.light"
+                },
+                "moderate": {
+                    "type": "color",
+                    "value": "$colors.utility.warning.standard"
+                },
+                "strong": {
+                    "type": "color",
+                    "value": "$colors.utility.success.standard"
+                },
+                "weak": {
+                    "type": "color",
+                    "value": "$colors.utility.error.standard"
+                }
+            },
+            "surface": {
+                "base": {
+                    "type": "color",
+                    "value": "$colors.grayscale.lighter"
+                },
+                "on-dark": {
+                    "type": "color",
+                    "value": "$colors.brand.shade.dark-blue.170"
+                },
+                "tile": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "on-dark": {
+                        "type": "color",
+                        "value": "$colors.brand.shade.dark-blue.90"
+                    }
+                }
+            },
+            "switch": {
+                "knob": {
+                    "active": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "disabled": {
+                        "type": "color",
+                        "value": "$colors.grayscale.medium"
+                    }
+                },
+                "track": {
+                    "active": {
+                        "type": "color",
+                        "value": "$colors.brand.light-blue"
+                    },
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lighter"
+                    },
+                    "disabled": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lighter"
+                    }
+                }
+            },
+            "table": {
+                "header": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    }
+                },
+                "row": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "hover": {
+                        "description": "TODO: needs to change but no alternative currently",
+                        "type": "color",
+                        "value": "#def1f9"
+                    },
+                    "zebrastripe": {
+                        "type": "color",
+                        "value": "$colors.grayscale.light"
+                    }
+                }
+            },
+            "tabs": {
+                "tabitem": {
+                    "active": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "focus": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "hover": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    }
+                }
+            },
+            "tag": {
+                "active": {
+                    "type": "color",
+                    "value": "$colors.brand.yellow"
+                },
+                "base": {
+                    "type": "color",
+                    "value": "$colors.grayscale.lightest"
+                },
+                "disabled": {
+                    "type": "color",
+                    "value": "$colors.grayscale.lighter"
+                },
+                "hover": {
+                    "description": "TODO: needs to change but no alternative currently",
+                    "type": "color",
+                    "value": "#ccebf9"
+                }
+            },
+            "tertiarynav": {
+                "active": {
+                    "type": "color",
+                    "value": "$colors.grayscale.lighter"
+                },
+                "base": {
+                    "type": "color",
+                    "value": "$colors.grayscale.lightest"
+                },
+                "focus": {
+                    "type": "color",
+                    "value": "$colors.grayscale.lighter"
+                },
+                "hover": {
+                    "type": "color",
+                    "value": "$colors.grayscale.lighter"
+                }
+            },
+            "tile": {
+                "checked": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "focus": {
+                        "type": "color",
+                        "value": "$colors.grayscale.light"
+                    },
+                    "hover": {
+                        "type": "color",
+                        "value": "$colors.grayscale.light"
+                    },
+                    "selected-indicator": {
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.brand.light-blue"
+                        },
+                        "checkmark": {
+                            "type": "color",
+                            "value": "$colors.grayscale.lightest"
+                        }
+                    }
+                },
+                "unchecked": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "focus": {
+                        "type": "color",
+                        "value": "$colors.grayscale.light"
+                    },
+                    "hover": {
+                        "type": "color",
+                        "value": "$colors.grayscale.light"
+                    }
+                }
+            },
+            "tooltip": {
+                "dark": {
+                    "type": "color",
+                    "value": "$colors.grayscale.darker"
+                },
+                "light": {
+                    "type": "color",
+                    "value": "$colors.grayscale.lightest"
+                }
+            }
+        },
+        "border": {
+            "accordion": {
+                "large": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.dark"
+                    }
+                },
+                "small": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.dark"
+                    }
+                }
+            },
+            "alert": {
+                "inline": {
+                    "base": {
+                        "type": "color",
+                        "value": "#515761",
+                        "description": "TODO: might change"
+                    },
+                    "error": {
+                        "type": "color",
+                        "value": "$colors.utility.error.standard"
+                    },
+                    "helpinfo": {
+                        "type": "color",
+                        "value": "$colors.utility.help.standard"
+                    },
+                    "latest": {
+                        "type": "color",
+                        "value": "#973894",
+                        "description":"TODO: need to add a color token for this"
+                    },
+                    "success": {
+                        "type": "color",
+                        "value": "$colors.utility.success.standard"
+                    }
+                },
+                "pagebanner": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darker"
+                    },
+                    "emergency": {
+                        "type": "color",
+                        "value": "$colors.utility.error.standard"
+                    }
+                },
+                "sitebanner": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darker"
+                    },
+                    "emergency": {
+                        "type": "color",
+                        "value": "$colors.utility.error.standard"
+                    }
+                }
+            },
+            "button": {
+                "large": {
+                    "emphasized": {
+                        "active": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.yellow-150"
+                        },
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.brand.yellow"
+                        },
+                        "disabled": {
+                            "type": "color",
+                            "value": "$colors.grayscale.medium"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.yellow-150"
+                        },
+                        "hover": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.yellow-150"
+                        }
+                    },
+                    "primary": {
+                        "active": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.dark-blue.150"
+                        },
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "disabled": {
+                            "type": "color",
+                            "value": "$colors.grayscale.medium"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.dark-blue.150"
+                        },
+                        "hover": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.dark-blue.150"
+                        }
+                    },
+                    "secondary": {
+                        "active": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.dark-blue.150"
+                        },
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "disabled": {
+                            "type": "color",
+                            "value": "$colors.grayscale.medium"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.dark-blue.150"
+                        },
+                        "hover": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.dark-blue.150"
+                        }
+                    }
+                },
+                "small": {
+                    "emphasized": {
+                        "active": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.yellow-150"
+                        },
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.brand.yellow"
+                        },
+                        "disabled": {
+                            "type": "color",
+                            "value": "$colors.grayscale.medium"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.yellow-150"
+                        },
+                        "hover": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.yellow-150"
+                        }
+                    },
+                    "primary": {
+                        "active": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.dark-blue.150"
+                        },
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "disabled": {
+                            "type": "color",
+                            "value": "$colors.grayscale.medium"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.dark-blue.150"
+                        },
+                        "hover": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.dark-blue.150"
+                        }
+                    },
+                    "secondary": {
+                        "active": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.dark-blue.150"
+                        },
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "disabled": {
+                            "type": "color",
+                            "value": "$colors.grayscale.medium"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.dark-blue.150"
+                        },
+                        "hover": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.dark-blue.150"
+                        }
+                    }
+                }
+            },
+            "checkbox": {
+                "checked": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "disabled": {
+                        "type": "color",
+                        "value": "$colors.brand.gray"
+                    },
+                    "error": {
+                        "type": "color",
+                        "value": "$colors.utility.error.standard"
+                    },
+                    "focus": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "readonly": {
+                        "type": "color",
+                        "value": "$colors.brand.gray"
+                    }
+                },
+                "unchecked": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "focus": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    }
+                }
+            },
+            "chip": {
+                "base": {
+                    "description": "TODO: needs to change but no alternative currently",
+                    "type": "color",
+                    "value": "#cee9f6"
+                }
+            },
+            "datepicker": {
+                "calendar": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darker"
+                    }
+                },
+                "day": {
+                    "active": {
+                        "type": "color",
+                        "value": "$colors.utility.help.standard"
+                    },
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lighter"
+                    },
+                    "hover": {
+                        "type": "color",
+                        "value": "$colors.utility.help.standard"
+                    },
+                    "range": {
+                        "description": "TODO: needs to change but no alternative currently",
+                        "type": "color",
+                        "value": "#99d7f2"
+                    },
+                    "today": {
+                        "type": "color",
+                        "value": "$colors.utility.help.standard"
+                    },
+                    "unavailable": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lighter"
+                    }
+                }
+            },
+            "formfield": {
+                "base": {
+                    "type": "color",
+                    "value": "$colors.grayscale.darker"
+                },
+                "disabled": {
+                    "type": "color",
+                    "value": "$colors.grayscale.medium"
+                },
+                "error": {
+                    "type": "color",
+                    "value": "$colors.utility.error.standard"
+                },
+                "readonly": {
+                    "type": "color",
+                    "value": "$colors.grayscale.dark"
+                },
+                "success": {
+                    "type": "color",
+                    "value": "$colors.utility.success.standard"
+                }
+            },
+            "header": {
+                "cart-counter": {
+                    "cobrand-postauth": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "cobrand-preauth": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "logo-only": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "on-mainnav": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "postauth": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "preauth": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    }
+                }
+            },
+            "mainnav": {
+                "mobilemenu-divider": {
+                    "cobrand-postauth": {
+                        "type": "color",
+                        "value": "$colors.grayscale.dark"
+                    },
+                    "cobrand-preauth": {
+                        "type": "color",
+                        "value": "$colors.grayscale.dark"
+                    },
+                    "postauth": {
+                        "type": "color",
+                        "value": "$colors.grayscale.dark"
+                    },
+                    "preauth": {
+                        "type": "color",
+                        "value": "$colors.grayscale.dark"
+                    }
+                },
+                "mobilemenu-toggle": {
+                    "cobrand-postauth": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "cobrand-preauth": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "postauth": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "preauth": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    }
+                }
+            },
+            "overpanel": {
+                "divider": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.dark"
+                    }
+                }
+            },
+            "pagination": {
+                "active": {
+                    "type": "color",
+                    "value": "$colors.grayscale.darkest"
+                },
+                "base": {
+                    "type": "color",
+                    "value": "$colors.grayscale.darkest"
+                },
+                "focus": {
+                    "type": "color",
+                    "value": "$colors.grayscale.darkest"
+                },
+                "hover": {
+                    "type": "color",
+                    "value": "$colors.brand.light-blue"
+                }
+            },
+            "popover": {
+                "dark": {
+                    "type": "color",
+                    "value": "$colors.grayscale.darker"
+                },
+                "light": {
+                    "type": "color",
+                    "value": "$colors.grayscale.darker"
+                }
+            },
+            "progressmeter": {
+                "active": {
+                    "type": "color",
+                    "value": "$colors.grayscale.darker"
+                },
+                "base": {
+                    "type": "color",
+                    "value": "$colors.grayscale.darker"
+                }
+            },
+            "radio": {
+                "checked": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "disabled": {
+                        "type": "color",
+                        "value": "$colors.brand.gray"
+                    },
+                    "error": {
+                        "type": "color",
+                        "value": "$colors.utility.error.standard"
+                    },
+                    "focus": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "readonly": {
+                        "type": "color",
+                        "value": "$colors.brand.gray"
+                    }
+                },
+                "unchecked": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "focus": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    }
+                }
+            },
+            "rangeslider": {
+                "knob": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darker"
+                    },
+                    "disabled": {
+                        "type": "color",
+                        "value": "$colors.grayscale.dark"
+                    }
+                },
+                "track": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darker"
+                    },
+                    "disabled": {
+                        "type": "color",
+                        "value": "$colors.grayscale.medium"
+                    }
+                }
+            },
+            "input": {
+                "list": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darker"
+                    }
+                }
+            },
+            "strengthmeter": {
+                "base": {
+                    "type": "color",
+                    "value": "$colors.grayscale.darker"
+                },
+                "moderate": {
+                    "type": "color",
+                    "value": "$colors.grayscale.darker"
+                },
+                "strong": {
+                    "type": "color",
+                    "value": "$colors.grayscale.darker"
+                },
+                "weak": {
+                    "type": "color",
+                    "value": "$colors.grayscale.darker"
+                }
+            },
+            "switch": {
+                "knob": {
+                    "active": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darker"
+                    },
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darker"
+                    },
+                    "disabled": {
+                        "type": "color",
+                        "value": "$colors.grayscale.medium"
+                    }
+                },
+                "track": {
+                    "active": {
+                        "type": "color",
+                        "value": "$colors.utility.help.standard"
+                    },
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darker"
+                    },
+                    "disabled": {
+                        "type": "color",
+                        "value": "$colors.grayscale.medium"
+                    }
+                }
+            },
+            "table": {
+                "header": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darker"
+                    }
+                },
+                "row": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.dark"
+                    }
+                }
+            },
+            "tabs": {
+                "tablist": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.dark"
+                    }
+                }
+            },
+            "tag": {
+                "active": {
+                    "type": "color",
+                    "value": "$colors.utility.help.standard"
+                },
+                "base": {
+                    "type": "color",
+                    "value": "$colors.utility.help.standard"
+                },
+                "disabled": {
+                    "type": "color",
+                    "value": "$colors.grayscale.dark"
+                },
+                "hover": {
+                    "type": "color",
+                    "value": "$colors.utility.help.standard"
+                }
+            },
+            "tertiarynav": {
+                "active": {
+                    "type": "color",
+                    "value": "$colors.grayscale.dark"
+                },
+                "base": {
+                    "type": "color",
+                    "value": "$colors.grayscale.dark"
+                },
+                "focus": {
+                    "type": "color",
+                    "value": "$colors.grayscale.dark"
+                },
+                "hover": {
+                    "type": "color",
+                    "value": "$colors.grayscale.dark"
+                }
+            },
+            "tile": {
+                "checked": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.brand.light-blue"
+                    },
+                    "focus": {
+                        "type": "color",
+                        "value": "$colors.brand.light-blue"
+                    },
+                    "hover": {
+                        "type": "color",
+                        "value": "$colors.brand.light-blue"
+                    }
+                },
+                "unchecked": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darker"
+                    },
+                    "focus": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darker"
+                    },
+                    "hover": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darker"
+                    }
+                }
+            },
+            "tooltip": {
+                "dark": {
+                    "type": "color",
+                    "value": "$colors.grayscale.darker"
+                },
+                "light": {
+                    "type": "color",
+                    "value": "$colors.grayscale.darker"
+                }
+            }
+        },
+        "brand": {
+            "dark-blue": {
+                "type": "color",
+                "value": "#132342"
+            },
+            "gray": {
+                "type": "color",
+                "value": "#ececec"
+            },
+            "green": {
+                "type": "color",
+                "value": "#69ca90"
+            },
+            "light-blue": {
+                "type": "color",
+                "value": "#2ca6ff"
+            },
+            "orange": {
+                "type": "color",
+                "value": "#ef6f3a"
+            },
+            "shade": {
+                "dark-blue": {
+                    "90": {
+                        "type": "color",
+                        "value": "#172A4F"
+                    },
+                    "150": {
+                        "type": "color",
+                        "value": "#0f1b33"
+                    },
+                    "170": {
+                        "type": "color",
+                        "value": "#0E192F"
+                    }
+                },
+                "light-blue-150": {
+                    "type": "color",
+                    "value": "#0079D2"
+                },
+                "yellow-150": {
+                    "type": "color",
+                    "value": "#f5c600"
+                }
+            },
+            "white": {
+                "type": "color",
+                "value": "#ffffff"
+            },
+            "yellow": {
+                "type": "color",
+                "value": "#f9dd71"
+            }
+        },
+        "fill": {
+            "header": {
+                "cart": {
+                    "cobrand-mobile": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "cobrand-postauth": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "cobrand-preauth": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "logo-only": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "on-mainnav": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "postauth": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "preauth": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    }
+                },
+                "logo": {
+                    "cobrand": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "cobrand-postauth": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "cobrand-preauth": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "logo-only": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "postauth": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "preauth": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    }
+                }
+            },
+            "mainnav": {
+                "mobilemenu-toggle": {
+                    "cobrand-postauth": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "cobrand-preauth": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "postauth": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "preauth": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    }
+                }
+            }
+        },
+        "grayscale": {
+            "dark": {
+                "type": "color",
+                "value": "#b3b3b3"
+            },
+            "darker": {
+                "type": "color",
+                "value": "#666666"
+            },
+            "darkest": {
+                "type": "color",
+                "value": "#000000"
+            },
+            "light": {
+                "description": "Brand Gray",
+                "type": "color",
+                "value": "#ececec"
+            },
+            "lighter": {
+                "description": "Neutral Gray",
+                "type": "color",
+                "value": "#f5f5f5"
+            },
+            "lightest": {
+                "type": "color",
+                "value": "$colors.brand.white"
+            },
+            "medium": {
+                "type": "color",
+                "value": "#d9d9d9"
+            }
+        },
+        "outline": {
+            "breadcrumb": {
+                "active": {
+                    "type": "color",
+                    "value": "$colors.grayscale.lightest"
+                },
+                "link": {
+                    "type": "color",
+                    "value": "$colors.brand.dark-blue"
+                }
+            },
+            "button": {
+                "large": {
+                    "emphasized": {
+                        "disabled": {
+                            "type": "color",
+                            "value": "$colors.grayscale.medium"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.yellow-150"
+                        }
+                    },
+                    "primary": {
+                        "disabled": {
+                            "type": "color",
+                            "value": "$colors.grayscale.medium"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.dark-blue.150"
+                        }
+                    },
+                    "secondary": {
+                        "disabled": {
+                            "type": "color",
+                            "value": "$colors.grayscale.medium"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.dark-blue.150"
+                        }
+                    },
+                    "tertiary": {
+                        "disabled": {
+                            "type": "color",
+                            "value": "$colors.grayscale.medium"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        }
+                    }
+                },
+                "small": {
+                    "emphasized": {
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.yellow-150"
+                        },
+                        "outline": {
+                            "type": "color",
+                            "value": "$colors.grayscale.medium"
+                        }
+                    },
+                    "primary": {
+                        "disabled": {
+                            "type": "color",
+                            "value": "$colors.grayscale.medium"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.dark-blue.150"
+                        }
+                    },
+                    "secondary": {
+                        "disabled": {
+                            "type": "color",
+                            "value": "$colors.grayscale.medium"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.dark-blue.150"
+                        }
+                    },
+                    "tertiary": {
+                        "disabled": {
+                            "type": "color",
+                            "value": "$colors.grayscale.medium"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.dark-blue.150"
+                        }
+                    }
+                }
+            },
+            "checkbox": {
+                "error": {
+                    "type": "color",
+                    "value": "$colors.utility.error.standard"
+                },
+                "focus": {
+                    "type": "color",
+                    "value": "$colors.brand.dark-blue"
+                }
+            },
+            "formfield": {
+                "base": {
+                    "type": "color",
+                    "value": "$colors.utility.help.standard"
+                },
+                "disabled": {
+                    "type": "color",
+                    "value": "$colors.utility.help.standard"
+                },
+                "error": {
+                    "type": "color",
+                    "value": "$colors.utility.error.standard"
+                },
+                "readonly": {
+                    "type": "color",
+                    "value": "$colors.utility.help.standard"
+                },
+                "success": {
+                    "type": "color",
+                    "value": "$colors.utility.success.standard"
+                }
+            },
+            "header": {
+                "cart": {
+                    "cobrand-postauth": {
+                        "type": "color",
+                        "value": "$colors.brand.yellow"
+                    },
+                    "cobrand-preauth": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "logo-only": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "on-mainnav": {
+                        "type": "color",
+                        "value": "$colors.brand.yellow"
+                    },
+                    "postauth": {
+                        "type": "color",
+                        "value": "$colors.brand.yellow"
+                    },
+                    "preauth": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    }
+                },
+                "cart-counter": {
+                    "cobrand-postauth": {
+                        "type": "color",
+                        "value": "$colors.brand.yellow"
+                    },
+                    "cobrand-preauth": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "logo-only": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "on-mainnav": {
+                        "type": "color",
+                        "value": "$colors.brand.yellow"
+                    },
+                    "postauth": {
+                        "type": "color",
+                        "value": "$colors.brand.yellow"
+                    },
+                    "preauth": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    }
+                },
+                "logo": {
+                    "cobrand-postauth": {
+                        "type": "color",
+                        "value": "$colors.brand.yellow"
+                    },
+                    "cobrand-preauth": {
+                        "type": "color",
+                        "value": "$colors.brand.yellow"
+                    },
+                    "logo-only": {
+                        "type": "color",
+                        "value": "$colors.brand.yellow"
+                    },
+                    "postauth": {
+                        "type": "color",
+                        "value": "$colors.brand.yellow"
+                    },
+                    "preauth": {
+                        "type": "color",
+                        "value": "$colors.brand.yellow"
+                    }
+                }
+            },
+            "mainnav": {
+                "mobilemenu-toggle": {
+                    "cobrand-postauth": {
+                        "type": "color",
+                        "value": "$colors.brand.yellow"
+                    },
+                    "cobrand-preauth": {
+                        "type": "color",
+                        "value": "$colors.brand.yellow"
+                    },
+                    "postauth": {
+                        "type": "color",
+                        "value": "$colors.brand.yellow"
+                    },
+                    "preauth": {
+                        "type": "color",
+                        "value": "$colors.brand.yellow"
+                    }
+                }
+            },
+            "modal": {
+                "closeicon": {
+                    "active": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darkest"
+                    },
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "focus": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "hover": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    }
+                }
+            },
+            "overpanel": {
+                "backicon": {
+                    "active": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darkest"
+                    },
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "focus": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "hover": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    }
+                },
+                "closeicon": {
+                    "active": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darkest"
+                    },
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darkest"
+                    },
+                    "focus": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "hover": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darkest"
+                    }
+                }
+            },
+            "pagination": {
+                "active": {
+                    "type": "color",
+                    "value": "$colors.grayscale.darkest"
+                },
+                "base": {
+                    "type": "color",
+                    "value": "$colors.grayscale.darkest"
+                },
+                "focus": {
+                    "type": "color",
+                    "value": "$colors.utility.help.standard"
+                },
+                "hover": {
+                    "type": "color",
+                    "value": "$colors.grayscale.darkest"
+                }
+            },
+            "radio": {
+                "error": {
+                    "type": "color",
+                    "value": "$colors.utility.error.standard"
+                },
+                "focus": {
+                    "type": "color",
+                    "value": "$colors.brand.dark-blue"
+                }
+            },
+            "rangeslider": {
+                "knob": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.utility.help.standard"
+                    },
+                    "disabled": {
+                        "type": "color",
+                        "value": "$colors.utility.help.standard"
+                    }
+                }
+            },
+            "switch": {
+                "track": {
+                    "active": {
+                        "type": "color",
+                        "value": "$colors.utility.help.standard"
+                    },
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.utility.help.standard"
+                    },
+                    "disabled": {
+                        "type": "color",
+                        "value": "$colors.utility.help.standard"
+                    }
+                }
+            },
+            "tabs": {
+                "tabitem": {
+                    "active": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darkest"
+                    },
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darkest"
+                    },
+                    "focus": {
+                        "type": "color",
+                        "value": "$colors.utility.help.standard"
+                    },
+                    "hover": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darkest"
+                    }
+                }
+            },
+            "tag": {
+                "active": {
+                    "type": "color",
+                    "value": "$colors.utility.help.standard"
+                },
+                "base": {
+                    "type": "color",
+                    "value": "$colors.utility.help.standard"
+                },
+                "disabled": {
+                    "type": "color",
+                    "value": "$colors.grayscale.dark"
+                },
+                "hover": {
+                    "type": "color",
+                    "value": "$colors.grayscale.darkest"
+                }
+            },
+            "tertiarynav": {
+                "active": {
+                    "type": "color",
+                    "value": "$colors.grayscale.darkest"
+                },
+                "base": {
+                    "type": "color",
+                    "value": "$colors.grayscale.darkest"
+                },
+                "focus": {
+                    "type": "color",
+                    "value": "$colors.utility.help.standard"
+                },
+                "hover": {
+                    "type": "color",
+                    "value": "$colors.grayscale.darkest"
+                }
+            },
+            "tile": {
+                "checked": {
+                    "focus": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darker"
+                    }
+                },
+                "unchecked": {
+                    "focus": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darker"
+                    }
+                }
+            }
+        },
+        "text": {
+            "accordion": {
+                "large": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "hover": {
+                        "type": "color",
+                        "value": "$colors.brand.light-blue"
+                    }
+                },
+                "small": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "hover": {
+                        "type": "color",
+                        "value": "$colors.brand.light-blue"
+                    }
+                }
+            },
+            "alert": {
+                "inline": {
+                    "base": {
+                        "type": "color",
+                        "value": "#515761",
+                        "description": "TODO: might change"
+                    },
+                    "error": {
+                        "type": "color",
+                        "value": "$colors.utility.error.standard"
+                    },
+                    "helpinfo": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "latest": {
+                        "type": "color",
+                        "value": "#973894"
+                    },
+                    "success": {
+                        "type": "color",
+                        "value": "$colors.utility.success.standard"
+                    }
+                },
+                "pagebanner": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darker"
+                    },
+                    "colorbar": {
+                        "emergency": {
+                            "type": "color",
+                            "value": "$colors.grayscale.lightest"
+                        }
+                    }
+                },
+                "sitebanner": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darker"
+                    },
+                    "colorbar": {
+                        "emergency": {
+                            "type": "color",
+                            "value": "$colors.grayscale.lightest"
+                        }
+                    }
+                }
+            },
+            "badge": {
+                "error": {
+                    "clear": {
+                        "type": "color",
+                        "value": "$colors.utility.error.standard"
+                    },
+                    "dark": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "light": {
+                        "type": "color",
+                        "value": "$colors.utility.error.standard"
+                    },
+                    "lightest": {
+                        "type": "color",
+                        "value": "$colors.utility.error.standard"
+                    }
+                },
+                "info": {
+                    "clear": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "dark": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "light": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "lightest": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    }
+                },
+                "latest": {
+                    "clear": {
+                        "description": "TODO: needs an alias but currently one does not exist",
+                        "type": "color",
+                        "value": "#973894"
+                    },
+                    "dark": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "light": {
+                        "description": "TODO: needs an alias but currently one does not exist",
+                        "type": "color",
+                        "value": "#973894"
+                    },
+                    "lightest": {
+                        "description": "TODO: needs an alias but currently one does not exist",
+                        "type": "color",
+                        "value": "#973894"
+                    }
+                },
+                "neutral": {
+                    "clear": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darkest"
+                    },
+                    "dark": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "light": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darkest"
+                    },
+                    "lightest": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darkest"
+                    }
+                },
+                "success": {
+                    "clear": {
+                        "type": "color",
+                        "value": "$colors.utility.success.standard"
+                    },
+                    "dark": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "light": {
+                        "type": "color",
+                        "value": "$colors.utility.success.standard"
+                    },
+                    "lightest": {
+                        "type": "color",
+                        "value": "$colors.utility.success.standard"
+                    }
+                },
+                "warning": {
+                    "clear": {
+                        "description": "TODO: needs to change but no alternative currently",
+                        "type": "color",
+                        "value": "#bd5700"
+                    },
+                    "dark": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darkest"
+                    },
+                    "light": {
+                        "description": "TODO: needs to change but no alternative currently",
+                        "type": "color",
+                        "value": "#bd5700"
+                    },
+                    "lightest": {
+                        "description": "TODO: needs to change but no alternative currently",
+                        "type": "color",
+                        "value": "#bd5700"
+                    }
+                }
+            },
+            "breadcrumb": {
+                "current": {
+                    "type": "color",
+                    "value": "$colors.grayscale.darker"
+                },
+                "link": {
+                    "type": "color",
+                    "value": "$colors.grayscale.darkest"
+                }
+            },
+            "button": {
+                "large": {
+                    "emphasized": {
+                        "active": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "disabled": {
+                            "type": "color",
+                            "value": "$colors.grayscale.darker"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "hover": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        }
+                    },
+                    "primary": {
+                        "active": {
+                            "type": "color",
+                            "value": "$colors.grayscale.lightest"
+                        },
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.grayscale.lightest"
+                        },
+                        "disabled": {
+                            "type": "color",
+                            "value": "$colors.grayscale.darker"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.grayscale.lightest"
+                        },
+                        "hover": {
+                            "type": "color",
+                            "value": "$colors.grayscale.lightest"
+                        }
+                    },
+                    "secondary": {
+                        "active": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.dark-blue.150"
+                        },
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "disabled": {
+                            "type": "color",
+                            "value": "$colors.grayscale.darker"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.dark-blue.150"
+                        },
+                        "hover": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.dark-blue.150"
+                        }
+                    },
+                    "tertiary": {
+                        "active": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.dark-blue.150"
+                        },
+                        "disabled": {
+                            "type": "color",
+                            "value": "$colors.grayscale.darker"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "hover": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        }
+                    }
+                },
+                "small": {
+                    "emphasized": {
+                        "active": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "disabled": {
+                            "type": "color",
+                            "value": "#666666",
+                            "description": "TODO: might change"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "hover": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        }
+                    },
+                    "primary": {
+                        "active": {
+                            "type": "color",
+                            "value": "$colors.grayscale.lightest"
+                        },
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.grayscale.lightest"
+                        },
+                        "disabled": {
+                            "type": "color",
+                            "value": "$colors.grayscale.darker"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.grayscale.lightest"
+                        },
+                        "hover": {
+                            "type": "color",
+                            "value": "$colors.grayscale.lightest"
+                        }
+                    },
+                    "secondary": {
+                        "active": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.dark-blue.150"
+                        },
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "disabled": {
+                            "type": "color",
+                            "value": "$colors.grayscale.darker"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.dark-blue.150"
+                        },
+                        "hover": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.dark-blue.150"
+                        }
+                    },
+                    "tertiary": {
+                        "active": {
+                            "description": "TODO: might change",
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "base": {
+                            "description": "TODO: might change",
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "disabled": {
+                            "description": "TODO: might change",
+                            "type": "color",
+                            "value": "$colors.grayscale.darkest"
+                        },
+                        "focus": {
+                            "description": "TODO: might change",
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "hover": {
+                            
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        }
+                    }
+                }
+            },
+            "chip": {
+                "base": {
+                    "type": "color",
+                    "value": "$colors.grayscale.darker"
+                }
+            },
+            "datepicker": {
+                "calendar": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darker"
+                    }
+                },
+                "day": {
+                    "active": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darker"
+                    },
+                    "hover": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darker"
+                    },
+                    "range": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darker"
+                    },
+                    "today": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darker"
+                    },
+                    "unavailable": {
+                        "type": "color",
+                        "value": "$colors.grayscale.dark"
+                    }
+                }
+            },
+            "footer": {
+                "cobrand-postauth": {
+                    "type": "color",
+                    "value": "$colors.grayscale.lightest"
+                },
+                "cobrand-preauth": {
+                    "type": "color",
+                    "value": "$colors.grayscale.lightest"
+                },
+                "menu": {
+                    "active": {
+                        "type": "color",
+                        "value": "$colors.utility.help.standard"
+                    },
+                    "base": {
+                        "description": "TODO: needs to change but no alternative currently",
+                        "type": "color",
+                        "value": "#addbf0"
+                    },
+                    "focus": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "hover": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    }
+                },
+                "postauth": {
+                    "type": "color",
+                    "value": "$colors.grayscale.lightest"
+                },
+                "preauth": {
+                    "type": "color",
+                    "value": "$colors.grayscale.lightest"
+                },
+                "submenu": {
+                    "base": {
+                        "description": "TODO: needs to change but no alternative currently",
+                        "type": "color",
+                        "value": "#addbf0"
+                    },
+                    "focus": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "hover": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    }
+                }
+            },
+            "formfield": {
+                "base": {
+                    "type": "color",
+                    "value": "$colors.brand.dark-blue"
+                },
+                "disabled": {
+                    "type": "color",
+                    "value": "$colors.grayscale.dark"
+                },
+                "error": {
+                    "type": "color",
+                    "value": "$colors.brand.dark-blue"
+                },
+                "readonly": {
+                    "type": "color",
+                    "value": "$colors.brand.dark-blue"
+                },
+                "success": {
+                    "type": "color",
+                    "value": "$colors.brand.dark-blue"
+                }
+            },
+            "formlabel": {
+                "base": {
+                    "type": "color",
+                    "value": "$colors.brand.dark-blue"
+                },
+                "disabled": {
+                    "type": "color",
+                    "value": "$colors.grayscale.dark"
+                },
+                "error": {
+                    "type": "color",
+                    "value": "$colors.utility.error.standard"
+                },
+                "readonly": {
+                    "type": "color",
+                    "value": "$colors.grayscale.darkest"
+                },
+                "success": {
+                    "type": "color",
+                    "value": "$colors.utility.success.standard"
+                }
+            },
+            "header": {
+                "cart-counter": {
+                    "cobrand-postauth": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "cobrand-preauth": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "logo-only": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "on-mainnav": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "postauth": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "preauth": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    }
+                }
+            },
+            "mainnav": {
+                "menu-item": {
+                    "cobrand-postauth": {
+                        "active": {
+                            "type": "color",
+                            "value": "$colors.brand.yellow"
+                        },
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.brand.white"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.yellow"
+                        },
+                        "hover": {
+                            "type": "color",
+                            "value": "$colors.brand.yellow"
+                        }
+                    },
+                    "cobrand-preauth": {
+                        "active": {
+                            "type": "color",
+                            "value": "$colors.brand.yellow"
+                        },
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.brand.white"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.yellow"
+                        },
+                        "hover": {
+                            "type": "color",
+                            "value": "$colors.brand.yellow"
+                        }
+                    },
+                    "postauth": {
+                        "active": {
+                            "type": "color",
+                            "value": "$colors.brand.yellow"
+                        },
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.brand.white"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.yellow"
+                        },
+                        "hover": {
+                            "type": "color",
+                            "value": "$colors.brand.yellow"
+                        }
+                    },
+                    "preauth": {
+                        "active": {
+                            "type": "color",
+                            "value": "$colors.brand.yellow"
+                        },
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.brand.white"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.yellow"
+                        },
+                        "hover": {
+                            "type": "color",
+                            "value": "$colors.brand.yellow"
+                        }
+                    }
+                },
+                "mobilemenu-title": {
+                    "cobrand-postauth": {
+                        "type": "color",
+                        "value": "$colors.brand.white"
+                    },
+                    "cobrand-preauth": {
+                        "type": "color",
+                        "value": "$colors.brand.white"
+                    },
+                    "postauth": {
+                        "type": "color",
+                        "value": "$colors.brand.white"
+                    },
+                    "preauth": {
+                        "type": "color",
+                        "value": "$colors.brand.white"
+                    }
+                },
+                "submenu-item": {
+                    "cobrand-postauth": {
+                        "active": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "hover": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        }
+                    },
+                    "cobrand-preauth": {
+                        "active": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "hover": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        }
+                    },
+                    "postauth": {
+                        "active": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "hover": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        }
+                    },
+                    "preauth": {
+                        "active": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        },
+                        "hover": {
+                            "type": "color",
+                            "value": "$colors.brand.dark-blue"
+                        }
+                    }
+                }
+            },
+            "modal": {
+                "closeicon": {
+                    "active": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "focus": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "hover": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    }
+                }
+            },
+            "overpanel": {
+                "backicon": {
+                    "active": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "focus": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "hover": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    }
+                },
+                "closeicon": {
+                    "active": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "focus": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "hover": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    }
+                },
+                "header": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    }
+                }
+            },
+            "pagination": {
+                "active": {
+                    "type": "color",
+                    "value": "$colors.grayscale.lightest"
+                },
+                "base": {
+                    "type": "color",
+                    "value": "$colors.utility.help.standard"
+                },
+                "focus": {
+                    "type": "color",
+                    "value": "$colors.utility.help.standard"
+                },
+                "hover": {
+                    "type": "color",
+                    "value": "$colors.utility.help.standard"
+                }
+            },
+            "popover": {
+                "dark": {
+                    "type": "color",
+                    "value": "$colors.grayscale.lightest"
+                },
+                "light": {
+                    "type": "color",
+                    "value": "$colors.grayscale.darker"
+                }
+            },
+            "progresssteps": {
+                "base": {
+                    "type": "color",
+                    "value": "$colors.brand.dark-blue"
+                },
+                "uncompleted": {
+                    "type": "color",
+                    "value": "$colors.grayscale.dark"
+                }
+            },
+            "input": {
+                "item": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darker"
+                    },
+                    "focus": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darker"
+                    },
+                    "hover": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darker"
+                    }
+                },
+                "list": {
+                "base": {
+                    "type": "color",
+                    "value": "$colors.grayscale.lightest"
+                }
+            }
+            },
+            "switch": {
+                "track": {
+                    "active": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    },
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darker"
+                    },
+                    "disabled": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darkest"
+                    }
+                }
+            },
+            "table": {
+                "header": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darker"
+                    }
+                },
+                "row": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darker"
+                    }
+                }
+            },
+            "tabs": {
+                "tabitem": {
+                    "active": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darker"
+                    },
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darker"
+                    },
+                    "focus": {
+                        "type": "color",
+                        "value": "$colors.grayscale.darker"
+                    },
+                    "hover": {
+                        "type": "color",
+                        "value": "$colors.grayscale.lightest"
+                    }
+                }
+            },
+            "tag": {
+                "active": {
+                    "type": "color",
+                    "value": "$colors.grayscale.darker"
+                },
+                "base": {
+                    "type": "color",
+                    "value": "$colors.grayscale.darker"
+                },
+                "disabled": {
+                    "type": "color",
+                    "value": "$colors.grayscale.dark"
+                },
+                "hover": {
+                    "type": "color",
+                    "value": "$colors.grayscale.darker"
+                }
+            },
+            "tertiarynav": {
+                "active": {
+                    "type": "color",
+                    "value": "$colors.grayscale.darkest"
+                },
+                "base": {
+                    "type": "color",
+                    "value": "$colors.utility.help.standard"
+                },
+                "focus": {
+                    "type": "color",
+                    "value": "$colors.utility.help.standard"
+                },
+                "hover": {
+                    "type": "color",
+                    "value": "$colors.utility.help.standard"
+                }
+            },
+            "tile": {
+                "checked": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "focus": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "hover": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "selected-indicator": {
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.grayscale.lightest"
+                        }
+                    }
+                },
+                "unchecked": {
+                    "base": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "focus": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    },
+                    "hover": {
+                        "type": "color",
+                        "value": "$colors.brand.dark-blue"
+                    }
+                }
+            },
+            "tooltip": {
+                "dark": {
+                    "type": "color",
+                    "value": "$colors.grayscale.lightest"
+                },
+                "light": {
+                    "type": "color",
+                    "value": "$colors.grayscale.darker"
+                }
+            },
+            "typography": {
+                "default": {
+                    "type": "color",
+                    "value": "$colors.brand.dark-blue"
+                },
+                "disabled": {
+                    "type": "color",
+                    "value": "$colors.grayscale.dark"
+                },
+                "error": {
+                    "type": "color",
+                    "value": "$colors.utility.error.standard"
+                },
+                "helpinfo": {
+                    "type": "color",
+                    "value": "$colors.utility.help.standard"
+                },
+                "link": {
+                    "dark": {
+                        "active": {
+                            "type": "color",
+                            "value": "$colors.grayscale.lightest"
+                        },
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.brand.light-blue"
+                        },
+                        "disabled": {
+                            "type": "color",
+                            "value": "$colors.grayscale.lighter"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.grayscale.lightest"
+                        },
+                        "hover": {
+                            "type": "color",
+                            "value": "$colors.grayscale.lightest"
+                        },
+                        "visited": {
+                            "type": "color",
+                            "value": "$colors.grayscale.lightest"
+                        }
+                    },
+                    "light": {
+                        "active": {
+                            "type": "color",
+                            "value": "$colors.brand.light-blue"
+                        },
+                        "base": {
+                            "type": "color",
+                            "value": "$colors.brand.shade.light-blue-150"
+                        },
+                        "disabled": {
+                            "type": "color",
+                            "value": "$colors.grayscale.dark"
+                        },
+                        "focus": {
+                            "type": "color",
+                            "value": "$colors.brand.light-blue"
+                        },
+                        "hover": {
+                            "type": "color",
+                            "value": "$colors.brand.light-blue"
+                        },
+                        "visited": {
+                            "type": "color",
+                            "value": "$colors.brand.light-blue"
+                        }
+                    }
+                },
+                "readonly": {
+                    "type": "color",
+                    "value": "$colors.grayscale.darker"
+                },
+                "success": {
+                    "type": "color",
+                    "value": "$colors.utility.success.standard"
+                },
+                "white": {
+                    "type": "color",
+                    "value": "$colors.grayscale.lightest"
+                }
+            }
+        },
+        "utility": {
+            "error": {
+                "on-dark": {
+                    "type": "color",
+                    "value": "#FF5457"
+                },
+                "standard": {
+                    "type": "color",
+                    "value": "#e4292f"
+                }
+            },
+            "help": {
+                "standard": {
+                    "type": "color",
+                    "value": "$colors.brand.dark-blue"
+                }
+            },
+            "success": {
+                "standard": {
+                    "type": "color",
+                    "value": "#3c8700"
+                }
+            },
+            "warning": {
+                "standard": {
+                    "type": "color",
+                    "value": "$colors.brand.shade.yellow-150"
+                }
+            }
+        }
+    },
+    "typography": {
+        "desktop": {
+            "hero-display": {
+                "value": {
+                    "fontFamily": "{font-family-primary}",
+                    "fontWeight": "{font-weight-regular}",
+                    "lineHeight": "{line-height-medium}",
+                    "fontSize": "{font-size-15}",
+                    "letterSpacing": "{letter-spacing-minimum}",
+                    "paragraphSpacing": "{paragraph-spacing-minimum}",
+                    "textCase": "{text-case-none}"
+                },
+                "type": "typography",
+                "description": "The hero display type style should only be used on pre-auth experience in hero/banner sections. This is great to highlight a value prop and consider only using it once on a page."
+            },
+            "body": {
+                "value": {
+                    "fontFamily": "{font-family-primary}",
+                    "fontWeight": "{font-weight-regular}",
+                    "lineHeight": "{line-height-small}",
+                    "fontSize": "{font-size-2}",
+                    "letterSpacing": "{letter-spacing-minimum}",
+                    "paragraphSpacing": "{paragraph-spacing-minimum}"
+                },
+                "type": "typography",
+                "description": "Body is used for all standard copy across our digital experience."
+            },
+            "body-legal": {
+                "value": {
+                    "fontFamily": "{font-family-primary}",
+                    "fontWeight": "{font-weight-regular}",
+                    "lineHeight": "{line-height-medium}",
+                    "fontSize": "{font-size-0}",
+                    "letterSpacing": "{letter-spacing-minimum}",
+                    "paragraphSpacing": "{paragraph-spacing-small}"
+                },
+                "type": "typography",
+                "description": "Our smallest type style that should be reserved for legal copy"
+            }
+        },
+        "component": {
+            "modal": {
+                "desktop-header": {
+                    "value": {
+                        "fontFamily": "{font-family-primary}",
+                        "fontWeight": "{font-weight-regular}",
+                        "lineHeight": "{line-height-large}",
+                        "fontSize": "{font-size-8}",
+                        "letterSpacing": "{letter-spacing-minimum}",
+                        "paragraphSpacing": "{paragraph-spacing-minimum}",
+                        "textCase": "{text-case-none}"
+                    },
+                    "type": "typography",
+                    "description": "Modal desktop header should only be used in desktop version of the Modal component"
+                }
+            }
+        }
+    },
+    "font-family-primary": {
+        "value": "Aeonik",
+        "type": "fontFamilies"
+    },
+    "font-family-secondary": {
+        "value": "Aeonik",
+        "type": "fontFamilies"
+    },
+    "line-height-minimum": {
+        "value": "auto",
+        "type": "lineHeights"
+    },
+    "line-height-small": {
+        "value": "125%",
+        "type": "lineHeights"
+    },
+    "line-height-medium": {
+        "value": "137.5%",
+        "type": "lineHeights"
+    },
+    "line-height-large": {
+        "value": "150%",
+        "type": "lineHeights"
+    },
+    "font-size-0": {
+        "value": "12px",
+        "type": "fontSizes"
+    },
+    "font-size-1": {
+        "value": "14px",
+        "type": "fontSizes"
+    },
+    "font-size-2": {
+        "value": "16px",
+        "type": "fontSizes"
+    },
+    "font-size-3": {
+        "value": "18px",
+        "type": "fontSizes"
+    },
+    "font-size-4": {
+        "value": "20px",
+        "type": "fontSizes"
+    },
+    "font-size-5": {
+        "value": "22px",
+        "type": "fontSizes"
+    },
+    "font-size-6": {
+        "value": "24px",
+        "type": "fontSizes"
+    },
+    "font-size-7": {
+        "value": "28px",
+        "type": "fontSizes"
+    },
+    "font-size-8": {
+        "value": "32px",
+        "type": "fontSizes"
+    },
+    "font-size-9": {
+        "value": "34px",
+        "type": "fontSizes"
+    },
+    "font-size-10": {
+        "value": "40px",
+        "type": "fontSizes"
+    },
+    "font-size-11": {
+        "value": "48px",
+        "type": "fontSizes"
+    },
+    "font-size-12": {
+        "value": "50px",
+        "type": "fontSizes"
+    },
+    "font-size-13": {
+        "value": "56px",
+        "type": "fontSizes"
+    },
+    "font-size-14": {
+        "value": "60px",
+        "type": "fontSizes"
+    },
+    "font-size-15": {
+        "value": "64px",
+        "type": "fontSizes"
+    },
+    "font-size-16": {
+        "value": "76px",
+        "type": "fontSizes"
+    },
+    "font-weight-light": {
+        "value": "Light",
+        "type": "fontWeights"
+    },
+    "font-weight-regular": {
+        "value": "Regular",
+        "type": "fontWeights"
+    },
+    "font-weight-medium": {
+        "value": "Medium",
+        "type": "fontWeights"
+    },
+    "font-weight-bold": {
+        "value": "Bold",
+        "type": "fontWeights"
+    },
+    "font-weight-black": {
+        "value": "Black",
+        "type": "fontWeights"
+    },
+    "letter-spacing-minimum": {
+        "value": "0",
+        "type": "letterSpacing"
+    },
+    "paragraph-spacing-minimum": {
+        "value": "0",
+        "type": "paragraphSpacing"
+    },
+    "paragraph-spacing-small": {
+        "value": "8px",
+        "type": "paragraphSpacing"
+    },
+    "paragraph-spacing-medium": {
+        "value": "16px",
+        "type": "paragraphSpacing"
+    },
+    "text-case-none": {
+        "value": "none",
+        "type": "textCase"
+    },
+    "text-case-uppercase": {
+        "value": "uppercase",
+        "type": "textCase"
+    },
+    "text-case-lowercase": {
+        "value": "lowercase",
+        "type": "textCase"
+    },
+    "text-case-capitalize": {
+        "value": "capitialize",
+        "type": "textCase"
+    }
+  }
+}
