@@ -1,0 +1,4781 @@
+{
+  "esi": {
+    "colors": {
+      "background": {
+        "alert": {
+          "close": {
+            "ondark": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "onlight": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            }
+          },
+          "inline": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.5"
+            },
+            "error": {
+              "type": "color",
+              "value": "$colors.utility.red.lightest"
+            },
+            "helpinfo": {
+              "type": "color",
+              "value": "$colors.utility.blue.lightest"
+            },
+            "latest": {
+              "description": "TODO: need to add a color token for this",
+              "type": "color",
+              "value": "#fff6ff"
+            },
+            "success": {
+              "type": "color",
+              "value": "$colors.utility.green.lightest"
+            },
+            "warning": {
+              "type": "color",
+              "value": "$colors.utility.yellow.lightest"
+            }
+          },
+          "pagebanner": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.5"
+            },
+            "colorbar": {
+              "base": {
+                "type": "color",
+                "value": "$colors.grayscale.100"
+              },
+              "emergency": {
+                "type": "color",
+                "value": "$colors.utility.red.standard"
+              },
+              "error": {
+                "type": "color",
+                "value": "$colors.utility.red.standard"
+              },
+              "helpinfo": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              },
+              "success": {
+                "type": "color",
+                "value": "$colors.utility.green.standard"
+              },
+              "warning": {
+                "type": "color",
+                "value": "$colors.utility.yellow.standard"
+              }
+            },
+            "emergency": {
+              "type": "color",
+              "value": "$colors.utility.red.lightest"
+            }
+          },
+          "sitebanner": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.5"
+            },
+            "colorbar": {
+              "base": {
+                "type": "color",
+                "value": "$colors.grayscale.100"
+              },
+              "emergency": {
+                "type": "color",
+                "value": "$colors.utility.red.standard"
+              },
+              "error": {
+                "type": "color",
+                "value": "$colors.utility.red.standard"
+              },
+              "helpinfo": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              },
+              "success": {
+                "type": "color",
+                "value": "$colors.utility.green.standard"
+              },
+              "warning": {
+                "type": "color",
+                "value": "$colors.utility.yellow.standard"
+              }
+            },
+            "emergency": {
+              "type": "color",
+              "value": "$colors.utility.red.lightest"
+            }
+          }
+        },
+        "badge": {
+          "error": {
+            "clear": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "dark": {
+              "type": "color",
+              "value": "$colors.utility.red.standard"
+            },
+            "light": {
+              "type": "color",
+              "value": "$colors.utility.red.lightest"
+            },
+            "lightest": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            }
+          },
+          "info": {
+            "clear": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "dark": {
+              "type": "color",
+              "value": "$colors.brand.shade.dark-blue.150"
+            },
+            "light": {
+              "type": "color",
+              "value": "$colors.utility.blue.lightest"
+            },
+            "lightest": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            }
+          },
+          "latest": {
+            "clear": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "dark": {
+              "type": "color",
+              "value": "$colors.brand.limited.purple"
+            },
+            "light": {
+              "type": "color",
+              "value": "#FFF6FF"
+            },
+            "lightest": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            }
+          },
+          "neutral": {
+            "clear": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "dark": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            },
+            "light": {
+              "type": "color",
+              "value": "$colors.grayscale.10"
+            },
+            "lightest": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            }
+          },
+          "success": {
+            "clear": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "dark": {
+              "type": "color",
+              "value": "$colors.utility.green.standard"
+            },
+            "light": {
+              "type": "color",
+              "value": "$colors.utility.green.lightest"
+            },
+            "lightest": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            }
+          },
+          "warning": {
+            "clear": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "dark": {
+              "type": "color",
+              "value": "$colors.utility.yellow.standard"
+            },
+            "light": {
+              "type": "color",
+              "value": "$colors.utility.yellow.lightest"
+            },
+            "lightest": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            }
+          }
+        },
+        "button": {
+          "large": {
+            "emphasized": {
+              "active": {
+                "type": "color",
+                "value": "$colors.brand.limited.yellow"
+              },
+              "base": {
+                "type": "color",
+                "value": "$colors.brand.limited.yellow"
+              },
+              "disabled": {
+                "type": "color",
+                "value": "$colors.grayscale.20"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.brand.limited.yellow"
+              },
+              "hover": {
+                "type": "color",
+                "value": "$colors.brand.limited.yellow"
+              }
+            },
+            "primary": {
+              "active": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              },
+              "base": {
+                "type": "color",
+                "value": "$colors.brand.blue"
+              },
+              "disabled": {
+                "type": "color",
+                "value": "$colors.grayscale.20"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              },
+              "hover": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              }
+            },
+            "secondary": {
+              "active": {
+                "type": "color",
+                "value": "$colors.brand.shade.light-blue.80"
+              },
+              "base": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              },
+              "disabled": {
+                "type": "color",
+                "value": "$colors.grayscale.20"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              },
+              "hover": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              }
+            }
+          },
+          "small": {
+            "emphasized": {
+              "active": {
+                "type": "color",
+                "value": "$colors.brand.limited.yellow"
+              },
+              "base": {
+                "type": "color",
+                "value": "$colors.brand.limited.yellow"
+              },
+              "disabled": {
+                "type": "color",
+                "value": "$colors.grayscale.20"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.brand.limited.yellow"
+              },
+              "hover": {
+                "type": "color",
+                "value": "$colors.brand.limited.yellow"
+              }
+            },
+            "primary": {
+              "active": {
+                "type": "color",
+                "value": "$colors.brand.shade.dark-blue.150"
+              },
+              "base": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              },
+              "disabled": {
+                "type": "color",
+                "value": "$colors.grayscale.20"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.brand.shade.dark-blue.150"
+              },
+              "hover": {
+                "type": "color",
+                "value": "$colors.brand.shade.dark-blue.150"
+              }
+            },
+            "secondary": {
+              "active": {
+                "type": "color",
+                "value": "$colors.brand.shade.light-blue.80"
+              },
+              "base": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              },
+              "disabled": {
+                "type": "color",
+                "value": "$colors.grayscale.20"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              },
+              "hover": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              }
+            }
+          }
+        },
+        "checkbox": {
+          "checked": {
+            "base": {
+              "type": "color",
+              "value": "$colors.brand.shade.dark-blue.80"
+            },
+            "checkmark": {
+              "base": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              },
+              "disabled": {
+                "type": "color",
+                "value": "$colors.grayscale.60"
+              },
+              "error": {
+                "type": "color",
+                "value": "$colors.utility.red.standard"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              },
+              "readonly": {
+                "type": "color",
+                "value": "$colors.grayscale.100"
+              }
+            },
+            "disabled": {
+              "type": "color",
+              "value": "$colors.grayscale.5"
+            },
+            "error": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "focus": {
+              "type": "color",
+              "value": "$colors.brand.shade.dark-blue.80"
+            },
+            "readonly": {
+              "type": "color",
+              "value": "$colors.grayscale.5"
+            }
+          },
+          "unchecked": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "focus": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            }
+          }
+        },
+        "chip": {
+          "base": {
+            "type": "color",
+            "value": "$colors.brand.shade.light-blue.40"
+          }
+        },
+        "datepicker": {
+          "calendar": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            }
+          },
+          "day": {
+            "active": {
+              "type": "color",
+              "value": "$colors.brand.dark-blue"
+            },
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.5"
+            },
+            "hover": {
+              "type": "color",
+              "value": "$colors.brand.shade.blue.40"
+            },
+            "range": {
+              "type": "color",
+              "value": "$colors.brand.shade.blue.40"
+            },
+            "today": {
+              "type": "color",
+              "value": "$colors.grayscale.5"
+            },
+            "unavailable": {
+              "type": "color",
+              "value": "$colors.grayscale.5"
+            }
+          }
+        },
+        "divider": {
+          "base": {
+            "type": "color",
+            "value": "$colors.grayscale.40"
+          },
+          "on-dark": {
+            "type": "color",
+            "value": "$colors.grayscale.40"
+          },
+          "on-light": {
+            "type": "color",
+            "value": "#B3B3B3"
+          }
+        },
+        "footer": {
+          "cobrand-postauth": {
+            "type": "color",
+            "value": "$colors.brand.dark-blue"
+          },
+          "cobrand-preauth": {
+            "type": "color",
+            "value": "$colors.brand.dark-blue"
+          },
+          "postauth": {
+            "type": "color",
+            "value": "$colors.brand.dark-blue"
+          },
+          "preauth": {
+            "type": "color",
+            "value": "$colors.brand.dark-blue"
+          },
+          "submenu": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "focus": {
+              "type": "color",
+              "value": "$colors.brand.dark-blue"
+            },
+            "hover": {
+              "type": "color",
+              "value": "$colors.brand.dark-blue"
+            }
+          }
+        },
+        "formfield": {
+          "base": {
+            "type": "color",
+            "value": "$colors.grayscale.lightest"
+          },
+          "disabled": {
+            "type": "color",
+            "value": "$colors.grayscale.5"
+          },
+          "error": {
+            "type": "color",
+            "value": "$colors.grayscale.lightest"
+          },
+          "readonly": {
+            "type": "color",
+            "value": "$colors.grayscale.5"
+          },
+          "success": {
+            "type": "color",
+            "value": "$colors.grayscale.lightest"
+          }
+        },
+        "header": {
+          "cart-counter": {
+            "cobrand-mobile": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "cobrand-postauth": {
+              "type": "color",
+              "value": "$colors.brand.dark-blue"
+            },
+            "cobrand-preauth": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "logo-only": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "on-mainnav": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "postauth": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "preauth": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            }
+          },
+          "cobrand-postauth": {
+            "type": "color",
+            "value": "$colors.grayscale.lightest"
+          },
+          "cobrand-preauth": {
+            "type": "color",
+            "value": "$colors.grayscale.lightest"
+          },
+          "logo-only": {
+            "type": "color",
+            "value": "$colors.brand.dark-blue"
+          },
+          "postauth": {
+            "type": "color",
+            "value": "$colors.brand.dark-blue"
+          },
+          "preauth": {
+            "type": "color",
+            "value": "$colors.grayscale.lightest"
+          }
+        },
+        "mainnav": {
+          "bar": {
+            "cobrand-mobile": {
+              "type": "color",
+              "value": "$colors.brand.blue"
+            },
+            "cobrand-postauth": {
+              "type": "color",
+              "value": "$colors.brand.blue"
+            },
+            "cobrand-preauth": {
+              "type": "color",
+              "value": "$colors.brand.blue"
+            },
+            "postauth": {
+              "type": "color",
+              "value": "$colors.brand.blue"
+            },
+            "preauth": {
+              "type": "color",
+              "value": "$colors.brand.blue"
+            }
+          },
+          "menu-item": {
+            "cobrand-postauth": {
+              "active": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              },
+              "base": {
+                "type": "color",
+                "value": "$colors.brand.blue"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              },
+              "hover": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              }
+            },
+            "cobrand-preauth": {
+              "active": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              },
+              "base": {
+                "type": "color",
+                "value": "$colors.brand.blue"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              },
+              "hover": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              }
+            },
+            "postauth": {
+              "active": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              },
+              "base": {
+                "type": "color",
+                "value": "$colors.brand.blue"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              },
+              "hover": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              }
+            },
+            "preauth": {
+              "active": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              },
+              "base": {
+                "type": "color",
+                "value": "$colors.brand.blue"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              },
+              "hover": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              }
+            }
+          },
+          "mobilemenu": {
+            "cobrand-postauth": {
+              "type": "color",
+              "value": "$colors.brand.blue"
+            },
+            "cobrand-preauth": {
+              "type": "color",
+              "value": "$colors.brand.blue"
+            },
+            "postauth": {
+              "type": "color",
+              "value": "$colors.brand.blue"
+            },
+            "preauth": {
+              "type": "color",
+              "value": "$colors.brand.blue"
+            }
+          },
+          "submenu": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "desktop": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "mobile": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            }
+          },
+          "submenu-item": {
+            "cobrand-postauth": {
+              "active": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              },
+              "base": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              },
+              "hover": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              }
+            },
+            "cobrand-preauth": {
+              "active": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              },
+              "base": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              },
+              "hover": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              }
+            },
+            "postauth": {
+              "active": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              },
+              "base": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              },
+              "hover": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              }
+            },
+            "preauth": {
+              "active": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              },
+              "base": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              },
+              "hover": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              }
+            }
+          }
+        },
+        "modal": {
+          "content": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.5"
+            }
+          },
+          "footer": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            }
+          }
+        },
+        "overlay": {
+          "base": {
+            "type": "color",
+            "value": "$colors.grayscale.darkest"
+          }
+        },
+        "overpanel": {
+          "content": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            }
+          },
+          "header": {
+            "base": {
+              "type": "color",
+              "value": "$colors.brand.blue"
+            }
+          }
+        },
+        "pagination": {
+          "active": {
+            "type": "color",
+            "value": "$colors.brand.dark-blue"
+          },
+          "base": {
+            "type": "color",
+            "value": "$colors.grayscale.lightest"
+          },
+          "focus": {
+            "type": "color",
+            "value": "$colors.utility.blue.lightest"
+          },
+          "hover": {
+            "type": "color",
+            "value": "$colors.utility.blue.lightest"
+          }
+        },
+        "popover": {
+          "dark": {
+            "type": "color",
+            "value": "$colors.grayscale.100"
+          },
+          "light": {
+            "type": "color",
+            "value": "$colors.grayscale.lightest"
+          }
+        },
+        "progressmeter": {
+          "active": {
+            "type": "color",
+            "value": "$colors.brand.blue"
+          },
+          "base": {
+            "type": "color",
+            "value": "$colors.grayscale.10"
+          }
+        },
+        "progresssteps": {
+          "base": {
+            "type": "color",
+            "value": "$colors.brand.dark-blue"
+          },
+          "icon": {
+            "base": {
+              "type": "color",
+              "value": "$colors.brand.dark-blue"
+            },
+            "uncompleted": {
+              "type": "color",
+              "value": "$colors.grayscale.40"
+            }
+          },
+          "uncompleted": {
+            "type": "color",
+            "value": "$colors.grayscale.40"
+          }
+        },
+        "radio": {
+          "checked": {
+            "base": {
+              "type": "color",
+              "value": "$colors.brand.shade.dark-blue.80"
+            },
+            "disabled": {
+              "type": "color",
+              "value": "$colors.grayscale.5"
+            },
+            "error": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "focus": {
+              "type": "color",
+              "value": "$colors.brand.shade.dark-blue.80"
+            },
+            "readonly": {
+              "type": "color",
+              "value": "$colors.grayscale.5"
+            }
+          },
+          "checkmark": {
+            "default": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "disabled": {
+              "type": "color",
+              "value": "$colors.grayscale.60"
+            },
+            "error": {
+              "type": "color",
+              "value": "$colors.utility.red.standard"
+            },
+            "focus": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "readonly": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            }
+          },
+          "unchecked": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "focus": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            }
+          }
+        },
+        "rangeslider": {
+          "fill": {
+            "base": {
+              "type": "color",
+              "value": "$colors.brand.blue"
+            },
+            "disabled": {
+              "type": "color",
+              "value": "$colors.grayscale.60"
+            }
+          },
+          "knob": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "disabled": {
+              "type": "color",
+              "value": "$colors.grayscale.5"
+            }
+          },
+          "track": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.10"
+            },
+            "disabled": {
+              "type": "color",
+              "value": "$colors.grayscale.5"
+            }
+          }
+        },
+        "input": {
+          "item": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "focus": {
+              "type": "color",
+              "value": "$colors.brand.shade.blue.20"
+            },
+            "hover": {
+              "type": "color",
+              "value": "$colors.brand.shade.blue.20"
+            }
+          },
+          "list": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            }
+          }
+        },
+        "skeletonloader": {
+          "darkest": {
+            "type": "color",
+            "value": "$colors.grayscale.10"
+          },
+          "lightest": {
+            "type": "color",
+            "value": "$colors.grayscale.5"
+          }
+        },
+        "strengthmeter": {
+          "base": {
+            "type": "color",
+            "value": "$colors.grayscale.10"
+          },
+          "moderate": {
+            "type": "color",
+            "value": "$colors.utility.yellow.standard"
+          },
+          "strong": {
+            "type": "color",
+            "value": "$colors.utility.green.standard"
+          },
+          "weak": {
+            "type": "color",
+            "value": "$colors.utility.red.standard"
+          }
+        },
+        "surface": {
+          "base": {
+            "type": "color",
+            "value": "$colors.grayscale.lightest"
+          },
+          "on-dark": {
+            "type": "color",
+            "value": "$colors.grayscale.125"
+          },
+          "tile": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.5"
+            },
+            "on-dark": {
+              "type": "color",
+              "value": "$colors.brand.dark-blue"
+            }
+          }
+        },
+        "switch": {
+          "knob": {
+            "active": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "disabled": {
+              "type": "color",
+              "value": "$colors.grayscale.20"
+            }
+          },
+          "track": {
+            "active": {
+              "type": "color",
+              "value": "$colors.brand.shade.dark-blue.80"
+            },
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.5"
+            },
+            "disabled": {
+              "type": "color",
+              "value": "$colors.grayscale.5"
+            }
+          }
+        },
+        "table": {
+          "header": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            }
+          },
+          "row": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "hover": {
+              "type": "color",
+              "value": "$colors.brand.shade.light-blue.40"
+            },
+            "zebrastripe": {
+              "type": "color",
+              "value": "$colors.grayscale.10"
+            }
+          }
+        },
+        "tabs": {
+          "tabitem": {
+            "active": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "focus": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "hover": {
+              "type": "color",
+              "value": "$colors.brand.dark-blue"
+            }
+          }
+        },
+        "tag": {
+          "active": {
+            "type": "color",
+            "value": "$colors.brand.shade.blue.20"
+          },
+          "base": {
+            "type": "color",
+            "value": "$colors.grayscale.lightest"
+          },
+          "disabled": {
+            "type": "color",
+            "value": "$colors.grayscale.5"
+          },
+          "hover": {
+            "type": "color",
+            "value": "$colors.brand.shade.blue.20"
+          }
+        },
+        "tertiarynav": {
+          "active": {
+            "type": "color",
+            "value": "$colors.grayscale.5"
+          },
+          "base": {
+            "type": "color",
+            "value": "$colors.grayscale.lightest"
+          },
+          "focus": {
+            "type": "color",
+            "value": "$colors.grayscale.5"
+          },
+          "hover": {
+            "type": "color",
+            "value": "$colors.grayscale.5"
+          }
+        },
+        "tile": {
+          "checked": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "focus": {
+              "type": "color",
+              "value": "$colors.brand.shade.light-blue.20"
+            },
+            "hover": {
+              "type": "color",
+              "value": "$colors.brand.shade.light-blue.20"
+            },
+            "selected-indicator": {
+              "base": {
+                "type": "color",
+                "value": "$colors.brand.blue"
+              },
+              "checkmark": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              }
+            }
+          },
+          "unchecked": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "focus": {
+              "type": "color",
+              "value": "$colors.brand.shade.light-blue.20"
+            },
+            "hover": {
+              "type": "color",
+              "value": "$colors.brand.shade.light-blue.20"
+            }
+          }
+        },
+        "tooltip": {
+          "dark": {
+            "type": "color",
+            "value": "$colors.grayscale.100"
+          },
+          "light": {
+            "type": "color",
+            "value": "$colors.grayscale.lightest"
+          }
+        }
+      },
+      "border": {
+        "accordion": {
+          "large": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.40"
+            }
+          },
+          "small": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.40"
+            }
+          }
+        },
+        "alert": {
+          "inline": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            },
+            "error": {
+              "type": "color",
+              "value": "$colors.utility.red.standard"
+            },
+            "helpinfo": {
+              "type": "color",
+              "value": "$colors.brand.dark-blue"
+            },
+            "latest": {
+              "type": "color",
+              "value": "$colors.brand.limited.purple"
+            },
+            "success": {
+              "type": "color",
+              "value": "$colors.utility.green.darkest"
+            }
+          },
+          "pagebanner": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            },
+            "emergency": {
+              "type": "color",
+              "value": "$colors.utility.red.standard"
+            }
+          },
+          "sitebanner": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            },
+            "emergency": {
+              "type": "color",
+              "value": "$colors.utility.red.standard"
+            }
+          }
+        },
+        "button": {
+          "large": {
+            "emphasized": {
+              "active": {
+                "type": "color",
+                "value": "$colors.brand.limited.yellow"
+              },
+              "base": {
+                "type": "color",
+                "value": "$colors.brand.limited.yellow"
+              },
+              "disabled": {
+                "type": "color",
+                "value": "$colors.grayscale.20"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.brand.limited.yellow"
+              },
+              "hover": {
+                "type": "color",
+                "value": "$colors.brand.limited.yellow"
+              }
+            },
+            "primary": {
+              "active": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              },
+              "base": {
+                "type": "color",
+                "value": "$colors.brand.blue"
+              },
+              "disabled": {
+                "type": "color",
+                "value": "$colors.grayscale.20"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              },
+              "hover": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              }
+            },
+            "secondary": {
+              "active": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              },
+              "base": {
+                "type": "color",
+                "value": "$colors.brand.blue"
+              },
+              "disabled": {
+                "type": "color",
+                "value": "$colors.grayscale.20"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              },
+              "hover": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              }
+            }
+          },
+          "small": {
+            "emphasized": {
+              "active": {
+                "type": "color",
+                "value": "$colors.brand.limited.yellow"
+              },
+              "base": {
+                "type": "color",
+                "value": "$colors.brand.limited.yellow"
+              },
+              "disabled": {
+                "type": "color",
+                "value": "$colors.grayscale.20"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.brand.limited.yellow"
+              },
+              "hover": {
+                "type": "color",
+                "value": "$colors.brand.limited.yellow"
+              }
+            },
+            "primary": {
+              "active": {
+                "type": "color",
+                "value": "$colors.brand.shade.dark-blue.150"
+              },
+              "base": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              },
+              "disabled": {
+                "type": "color",
+                "value": "$colors.grayscale.20"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.brand.shade.dark-blue.150"
+              },
+              "hover": {
+                "type": "color",
+                "value": "$colors.brand.shade.dark-blue.150"
+              }
+            },
+            "secondary": {
+              "active": {
+                "type": "color",
+                "value": "$colors.brand.shade.dark-blue.150"
+              },
+              "base": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              },
+              "disabled": {
+                "type": "color",
+                "value": "$colors.grayscale.20"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.brand.shade.dark-blue.150"
+              },
+              "hover": {
+                "type": "color",
+                "value": "$colors.brand.shade.dark-blue.150"
+              }
+            }
+          }
+        },
+        "checkbox": {
+          "checked": {
+            "base": {
+              "type": "color",
+              "value": "$colors.brand.dark-blue"
+            },
+            "disabled": {
+              "type": "color",
+              "value": "$colors.grayscale.40"
+            },
+            "error": {
+              "type": "color",
+              "value": "$colors.utility.red.standard"
+            },
+            "focus": {
+              "type": "color",
+              "value": "$colors.brand.dark-blue"
+            },
+            "readonly": {
+              "type": "color",
+              "value": "$colors.grayscale.40"
+            }
+          },
+          "unchecked": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            },
+            "focus": {
+              "type": "color",
+              "value": "$colors.brand.dark-blue"
+            }
+          }
+        },
+        "chip": {
+          "base": {
+            "type": "color",
+            "value": "$colors.brand.shade.blue.40"
+          }
+        },
+        "datepicker": {
+          "calendar": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            }
+          },
+          "day": {
+            "active": {
+              "type": "color",
+              "value": "$colors.brand.dark-blue"
+            },
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.5"
+            },
+            "hover": {
+              "type": "color",
+              "value": "$colors.brand.dark-blue"
+            },
+            "range": {
+              "type": "color",
+              "value": "$colors.brand.shade.blue.40"
+            },
+            "today": {
+              "type": "color",
+              "value": "$colors.brand.dark-blue"
+            },
+            "unavailable": {
+              "type": "color",
+              "value": "$colors.grayscale.5"
+            }
+          }
+        },
+        "formfield": {
+          "base": {
+            "type": "color",
+            "value": "$colors.grayscale.100"
+          },
+          "disabled": {
+            "type": "color",
+            "value": "$colors.grayscale.20"
+          },
+          "error": {
+            "type": "color",
+            "value": "$colors.utility.red.standard"
+          },
+          "readonly": {
+            "type": "color",
+            "value": "$colors.grayscale.40"
+          },
+          "success": {
+            "type": "color",
+            "value": "$colors.utility.green.standard"
+          }
+        },
+        "header": {
+          "cart-counter": {
+            "cobrand-postauth": {
+              "type": "color",
+              "value": "$colors.brand.dark-blue"
+            },
+            "cobrand-preauth": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "logo-only": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "on-mainnav": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "postauth": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "preauth": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            }
+          }
+        },
+        "mainnav": {
+          "mobilemenu-divider": {
+            "cobrand-postauth": {
+              "type": "color",
+              "value": "$colors.brand.shade.blue.60"
+            },
+            "cobrand-preauth": {
+              "type": "color",
+              "value": "$colors.brand.shade.blue.60"
+            },
+            "postauth": {
+              "type": "color",
+              "value": "$colors.brand.shade.blue.60"
+            },
+            "preauth": {
+              "type": "color",
+              "value": "$colors.brand.shade.blue.60"
+            }
+          },
+          "mobilemenu-toggle": {
+            "cobrand-postauth": {
+              "type": "color",
+              "value": "$colors.brand.shade.blue.60"
+            },
+            "cobrand-preauth": {
+              "type": "color",
+              "value": "$colors.brand.shade.blue.60"
+            },
+            "postauth": {
+              "type": "color",
+              "value": "$colors.brand.shade.blue.60"
+            },
+            "preauth": {
+              "type": "color",
+              "value": "$colors.brand.shade.blue.60"
+            }
+          }
+        },
+        "overpanel": {
+          "divider": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.40"
+            }
+          }
+        },
+        "pagination": {
+          "active": {
+            "type": "color",
+            "value": "$colors.grayscale.lightest"
+          },
+          "base": {
+            "type": "color",
+            "value": "$colors.grayscale.lightest"
+          },
+          "focus": {
+            "type": "color",
+            "value": "$colors.grayscale.lightest"
+          },
+          "hover": {
+            "type": "color",
+            "value": "$colors.brand.blue"
+          }
+        },
+        "popover": {
+          "dark": {
+            "type": "color",
+            "value": "$colors.grayscale.100"
+          },
+          "light": {
+            "type": "color",
+            "value": "$colors.grayscale.100"
+          }
+        },
+        "progressmeter": {
+          "active": {
+            "type": "color",
+            "value": "$colors.grayscale.100"
+          },
+          "base": {
+            "type": "color",
+            "value": "$colors.grayscale.100"
+          }
+        },
+        "radio": {
+          "checked": {
+            "base": {
+              "type": "color",
+              "value": "$colors.brand.dark-blue"
+            },
+            "disabled": {
+              "type": "color",
+              "value": "$colors.grayscale.20"
+            },
+            "error": {
+              "type": "color",
+              "value": "$colors.utility.red.standard"
+            },
+            "focus": {
+              "type": "color",
+              "value": "$colors.brand.dark-blue"
+            },
+            "readonly": {
+              "type": "color",
+              "value": "$colors.grayscale.40"
+            }
+          },
+          "unchecked": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            },
+            "focus": {
+              "type": "color",
+              "value": "$colors.brand.dark-blue"
+            }
+          }
+        },
+        "rangeslider": {
+          "knob": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            },
+            "disabled": {
+              "type": "color",
+              "value": "$colors.grayscale.40"
+            }
+          },
+          "track": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            },
+            "disabled": {
+              "type": "color",
+              "value": "$colors.grayscale.20"
+            }
+          }
+        },
+        "input": {
+          "list": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            }
+          }
+        },
+        "strengthmeter": {
+          "base": {
+            "type": "color",
+            "value": "$colors.grayscale.100"
+          },
+          "moderate": {
+            "type": "color",
+            "value": "$colors.grayscale.100"
+          },
+          "strong": {
+            "type": "color",
+            "value": "$colors.grayscale.100"
+          },
+          "weak": {
+            "type": "color",
+            "value": "$colors.grayscale.100"
+          }
+        },
+        "switch": {
+          "knob": {
+            "active": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            },
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            },
+            "disabled": {
+              "type": "color",
+              "value": "$colors.grayscale.20"
+            }
+          },
+          "track": {
+            "active": {
+              "type": "color",
+              "value": "$colors.brand.dark-blue"
+            },
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            },
+            "disabled": {
+              "type": "color",
+              "value": "$colors.grayscale.20"
+            }
+          }
+        },
+        "table": {
+          "header": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            }
+          },
+          "row": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.40"
+            }
+          }
+        },
+        "tabs": {
+          "tablist": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.40"
+            }
+          }
+        },
+        "tag": {
+          "active": {
+            "type": "color",
+            "value": "$colors.brand.dark-blue"
+          },
+          "base": {
+            "type": "color",
+            "value": "$colors.brand.dark-blue"
+          },
+          "disabled": {
+            "type": "color",
+            "value": "$colors.grayscale.60"
+          },
+          "hover": {
+            "type": "color",
+            "value": "$colors.brand.dark-blue"
+          }
+        },
+        "tertiarynav": {
+          "active": {
+            "type": "color",
+            "value": "$colors.grayscale.40"
+          },
+          "base": {
+            "type": "color",
+            "value": "$colors.grayscale.40"
+          },
+          "focus": {
+            "type": "color",
+            "value": "$colors.grayscale.40"
+          },
+          "hover": {
+            "type": "color",
+            "value": "$colors.grayscale.40"
+          }
+        },
+        "tile": {
+          "checked": {
+            "base": {
+              "type": "color",
+              "value": "$colors.brand.blue"
+            },
+            "focus": {
+              "type": "color",
+              "value": "$colors.brand.blue"
+            },
+            "hover": {
+              "type": "color",
+              "value": "$colors.brand.blue"
+            }
+          },
+          "unchecked": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            },
+            "focus": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            },
+            "hover": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            }
+          }
+        },
+        "tooltip": {
+          "dark": {
+            "type": "color",
+            "value": "$colors.grayscale.100"
+          },
+          "light": {
+            "type": "color",
+            "value": "$colors.grayscale.100"
+          }
+        }
+      },
+      "brand": {
+        "accent": {
+          "orange": {
+            "20": {
+              "type": "color",
+              "value": "#fee2cd"
+            },
+            "40": {
+              "type": "color",
+              "value": "#fcc49b"
+            },
+            "60": {
+              "type": "color",
+              "value": "#fba76a"
+            },
+            "80": {
+              "type": "color",
+              "value": "#f98938"
+            },
+            "100": {
+              "type": "color",
+              "value": "#f86c06"
+            }
+          }
+        },
+        "blue": {
+          "type": "color",
+          "value": "#009bdf"
+        },
+        "dark-blue": {
+          "type": "color",
+          "value": "#14568d"
+        },
+        "light-blue": {
+          "type": "color",
+          "value": "#addbf0"
+        },
+        "limited": {
+          "green": {
+            "type": "color",
+            "value": "#99ca3c"
+          },
+          "pink": {
+            "type": "color",
+            "value": "#db5899"
+          },
+          "purple": {
+            "type": "color",
+            "value": "#973894"
+          },
+          "teal": {
+            "type": "color",
+            "value": "#15a4a7"
+          },
+          "yellow": {
+            "type": "color",
+            "value": "#ffcd34"
+          }
+        },
+        "shade": {
+          "blue": {
+            "20": {
+              "type": "color",
+              "value": "#ccebf9"
+            },
+            "40": {
+              "type": "color",
+              "value": "#99d7f2"
+            },
+            "60": {
+              "type": "color",
+              "value": "#66c3ec"
+            },
+            "80": {
+              "type": "color",
+              "value": "#33afe5"
+            },
+            "150": {
+              "type": "color",
+              "value": "#0088d7"
+            }
+          },
+          "dark-blue": {
+            "20": {
+              "type": "color",
+              "value": "#d0dde8"
+            },
+            "40": {
+              "type": "color",
+              "value": "#a1bbd1"
+            },
+            "60": {
+              "type": "color",
+              "value": "#729abb"
+            },
+            "80": {
+              "type": "color",
+              "value": "#4378a4"
+            },
+            "150": {
+              "type": "color",
+              "value": "#073b64"
+            }
+          },
+          "light-blue": {
+            "20": {
+              "type": "color",
+              "value": "#eff8fc"
+            },
+            "40": {
+              "type": "color",
+              "value": "#def1f9"
+            },
+            "60": {
+              "type": "color",
+              "value": "#ccebf9"
+            },
+            "80": {
+              "type": "color",
+              "value": "#bde2f3"
+            },
+            "150": {
+              "type": "color",
+              "value": "#91cbe9"
+            }
+          }
+        }
+      },
+      "fill": {
+        "header": {
+          "cart": {
+            "cobrand-mobile": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "cobrand-postauth": {
+              "type": "color",
+              "value": "$colors.brand.dark-blue"
+            },
+            "cobrand-preauth": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "logo-only": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "on-mainnav": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "postauth": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "preauth": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            }
+          },
+          "logo": {
+            "cobrand-mobile": {
+              "type": "color",
+              "value": "$colors.brand.dark-blue"
+            },
+            "cobrand-postauth": {
+              "type": "color",
+              "value": "$colors.brand.dark-blue"
+            },
+            "cobrand-preauth": {
+              "type": "color",
+              "value": "$colors.brand.dark-blue"
+            },
+            "logo-only": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "postauth": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "preauth": {
+              "type": "color",
+              "value": "$colors.brand.dark-blue"
+            }
+          }
+        },
+        "mainnav": {
+          "mobilemenu-toggle": {
+            "cobrand-postauth": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "cobrand-preauth": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "postauth": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "preauth": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            }
+          }
+        }
+      },
+      "grayscale": {
+        "5": {
+          "type": "color",
+          "value": "#f8f8f9"
+        },
+        "10": {
+          "type": "color",
+          "value": "#edeeef"
+        },
+        "20": {
+          "type": "color",
+          "value": "#dcdddf"
+        },
+        "40": {
+          "type": "color",
+          "value": "#b9bcc0"
+        },
+        "60": {
+          "type": "color",
+          "value": "#979aa0"
+        },
+        "80": {
+          "type": "color",
+          "value": "#747981"
+        },
+        "100": {
+          "type": "color",
+          "value": "#515761"
+        },
+        "125": {
+          "type": "color",
+          "value": "#2f343d"
+        },
+        "150": {
+          "type": "color",
+          "value": "#1f232a"
+        },
+        "darkest": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "lightest": {
+          "type": "color",
+          "value": "#ffffff"
+        }
+      },
+      "outline": {
+        "breadcrumb": {
+          "active": {
+            "type": "color",
+            "value": "$colors.grayscale.lightest"
+          },
+          "link": {
+            "type": "color",
+            "value": "$colors.brand.dark-blue"
+          }
+        },
+        "button": {
+          "large": {
+            "emphasized": {
+              "disabled": {
+                "type": "color",
+                "value": "$colors.grayscale.20"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.brand.limited.yellow"
+              }
+            },
+            "primary": {
+              "disabled": {
+                "type": "color",
+                "value": "$colors.grayscale.20"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              }
+            },
+            "secondary": {
+              "disabled": {
+                "type": "color",
+                "value": "$colors.grayscale.20"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              }
+            },
+            "tertiary": {
+              "disabled": {
+                "type": "color",
+                "value": "$colors.grayscale.20"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              }
+            }
+          },
+          "small": {
+            "emphasized": {
+              "focus": {
+                "type": "color",
+                "value": "$colors.brand.limited.yellow"
+              },
+              "outline": {
+                "type": "color",
+                "value": "$colors.grayscale.20"
+              }
+            },
+            "primary": {
+              "disabled": {
+                "type": "color",
+                "value": "$colors.grayscale.20"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.brand.shade.dark-blue.150"
+              }
+            },
+            "secondary": {
+              "disabled": {
+                "type": "color",
+                "value": "$colors.grayscale.20"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.brand.shade.dark-blue.150"
+              }
+            },
+            "tertiary": {
+              "disabled": {
+                "type": "color",
+                "value": "$colors.grayscale.20"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              }
+            }
+          }
+        },
+        "checkbox": {
+          "error": {
+            "type": "color",
+            "value": "$colors.utility.red.standard"
+          },
+          "focus": {
+            "type": "color",
+            "value": "$colors.brand.dark-blue"
+          }
+        },
+        "formfield": {
+          "base": {
+            "type": "color",
+            "value": "$colors.brand.dark-blue"
+          },
+          "disabled": {
+            "type": "color",
+            "value": "$colors.brand.dark-blue"
+          },
+          "error": {
+            "type": "color",
+            "value": "$colors.utility.red.standard"
+          },
+          "readonly": {
+            "type": "color",
+            "value": "$colors.brand.dark-blue"
+          },
+          "success": {
+            "type": "color",
+            "value": "$colors.utility.green.standard"
+          }
+        },
+        "header": {
+          "cart": {
+            "cobrand-postauth": {
+              "type": "color",
+              "value": "$colors.brand.shade.dark-blue.20"
+            },
+            "cobrand-preauth": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "logo-only": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "on-mainnav": {
+              "type": "color",
+              "value": "$colors.brand.shade.dark-blue.20"
+            },
+            "postauth": {
+              "type": "color",
+              "value": "$colors.brand.shade.dark-blue.20"
+            },
+            "preauth": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            }
+          },
+          "cart-counter": {
+            "cobrand-postauth": {
+              "type": "color",
+              "value": "$colors.brand.shade.dark-blue.20"
+            },
+            "cobrand-preauth": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "logo-only": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "on-mainnav": {
+              "type": "color",
+              "value": "$colors.brand.shade.dark-blue.20"
+            },
+            "postauth": {
+              "type": "color",
+              "value": "$colors.brand.shade.dark-blue.20"
+            },
+            "preauth": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            }
+          },
+          "logo": {
+            "cobrand-postauth": {
+              "type": "color",
+              "value": "$colors.brand.shade.dark-blue.20"
+            },
+            "cobrand-preauth": {
+              "type": "color",
+              "value": "$colors.brand.shade.dark-blue.20"
+            },
+            "logo-only": {
+              "type": "color",
+              "value": "$colors.brand.shade.dark-blue.20"
+            },
+            "postauth": {
+              "type": "color",
+              "value": "$colors.brand.shade.dark-blue.20"
+            },
+            "preauth": {
+              "type": "color",
+              "value": "$colors.brand.shade.dark-blue.20"
+            }
+          }
+        },
+        "mainnav": {
+          "mobilemenu-toggle": {
+            "cobrand-postauth": {
+              "type": "color",
+              "value": "$colors.brand.shade.dark-blue.20"
+            },
+            "cobrand-preauth": {
+              "type": "color",
+              "value": "$colors.brand.shade.dark-blue.20"
+            },
+            "postauth": {
+              "type": "color",
+              "value": "$colors.brand.shade.dark-blue.20"
+            },
+            "preauth": {
+              "type": "color",
+              "value": "$colors.brand.shade.dark-blue.20"
+            }
+          }
+        },
+        "modal": {
+          "closeicon": {
+            "active": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "focus": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "hover": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            }
+          }
+        },
+        "overpanel": {
+          "backicon": {
+            "active": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "focus": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "hover": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            }
+          },
+          "closeicon": {
+            "active": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "focus": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "hover": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            }
+          }
+        },
+        "pagination": {
+          "active": {
+            "type": "color",
+            "value": "$colors.grayscale.lightest"
+          },
+          "base": {
+            "type": "color",
+            "value": "$colors.grayscale.lightest"
+          },
+          "focus": {
+            "type": "color",
+            "value": "$colors.brand.dark-blue"
+          },
+          "hover": {
+            "type": "color",
+            "value": "$colors.grayscale.lightest"
+          }
+        },
+        "radio": {
+          "error": {
+            "type": "color",
+            "value": "$colors.utility.red.standard"
+          },
+          "focus": {
+            "type": "color",
+            "value": "$colors.brand.dark-blue"
+          }
+        },
+        "rangeslider": {
+          "knob": {
+            "base": {
+              "type": "color",
+              "value": "$colors.brand.dark-blue"
+            },
+            "disabled": {
+              "type": "color",
+              "value": "$colors.brand.dark-blue"
+            }
+          }
+        },
+        "switch": {
+          "track": {
+            "active": {
+              "type": "color",
+              "value": "$colors.brand.dark-blue"
+            },
+            "base": {
+              "type": "color",
+              "value": "$colors.brand.dark-blue"
+            },
+            "disabled": {
+              "type": "color",
+              "value": "$colors.brand.dark-blue"
+            }
+          }
+        },
+        "tabs": {
+          "tabitem": {
+            "active": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "focus": {
+              "type": "color",
+              "value": "$colors.brand.dark-blue"
+            },
+            "hover": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            }
+          }
+        },
+        "tag": {
+          "active": {
+            "type": "color",
+            "value": "$colors.brand.dark-blue"
+          },
+          "base": {
+            "type": "color",
+            "value": "$colors.brand.dark-blue"
+          },
+          "disabled": {
+            "type": "color",
+            "value": "$colors.grayscale.60"
+          },
+          "hover": {
+            "type": "color",
+            "value": "$colors.grayscale.lightest"
+          }
+        },
+        "tertiarynav": {
+          "active": {
+            "type": "color",
+            "value": "$colors.grayscale.lightest"
+          },
+          "base": {
+            "type": "color",
+            "value": "$colors.grayscale.lightest"
+          },
+          "focus": {
+            "type": "color",
+            "value": "$colors.brand.dark-blue"
+          },
+          "hover": {
+            "type": "color",
+            "value": "$colors.grayscale.lightest"
+          }
+        },
+        "tile": {
+          "checked": {
+            "focus": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            }
+          },
+          "unchecked": {
+            "focus": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            }
+          }
+        }
+      },
+      "text": {
+        "accordion": {
+          "large": {
+            "base": {
+              "type": "color",
+              "value": "$colors.brand.blue"
+            },
+            "hover": {
+              "type": "color",
+              "value": "$colors.brand.blue"
+            }
+          },
+          "small": {
+            "base": {
+              "type": "color",
+              "value": "$colors.brand.dark-blue"
+            },
+            "hover": {
+              "type": "color",
+              "value": "$colors.brand.dark-blue"
+            }
+          }
+        },
+        "alert": {
+          "inline": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            },
+            "error": {
+              "type": "color",
+              "value": "$colors.utility.red.standard"
+            },
+            "helpinfo": {
+              "type": "color",
+              "value": "$colors.brand.dark-blue"
+            },
+            "latest": {
+              "type": "color",
+              "value": "$colors.brand.limited.purple"
+            },
+            "success": {
+              "type": "color",
+              "value": "$colors.utility.green.darkest"
+            }
+          },
+          "pagebanner": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            },
+            "colorbar": {
+              "emergency": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              }
+            }
+          },
+          "sitebanner": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            },
+            "colorbar": {
+              "emergency": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              }
+            }
+          }
+        },
+        "badge": {
+          "error": {
+            "clear": {
+              "type": "color",
+              "value": "$colors.utility.red.standard"
+            },
+            "dark": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "light": {
+              "type": "color",
+              "value": "$colors.utility.red.standard"
+            },
+            "lightest": {
+              "type": "color",
+              "value": "$colors.utility.red.standard"
+            }
+          },
+          "info": {
+            "clear": {
+              "type": "color",
+              "value": "$colors.brand.shade.dark-blue.150"
+            },
+            "dark": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "light": {
+              "type": "color",
+              "value": "$colors.brand.shade.dark-blue.150"
+            },
+            "lightest": {
+              "type": "color",
+              "value": "$colors.brand.shade.dark-blue.150"
+            }
+          },
+          "latest": {
+            "clear": {
+              "type": "color",
+              "value": "$colors.brand.limited.purple"
+            },
+            "dark": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "light": {
+              "type": "color",
+              "value": "$colors.brand.limited.purple"
+            },
+            "lightest": {
+              "type": "color",
+              "value": "$colors.brand.limited.purple"
+            }
+          },
+          "neutral": {
+            "clear": {
+              "type": "color",
+              "value": "$colors.grayscale.125"
+            },
+            "dark": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "light": {
+              "type": "color",
+              "value": "$colors.grayscale.125"
+            },
+            "lightest": {
+              "type": "color",
+              "value": "$colors.grayscale.125"
+            }
+          },
+          "success": {
+            "clear": {
+              "type": "color",
+              "value": "$colors.utility.green.darkest"
+            },
+            "dark": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "light": {
+              "type": "color",
+              "value": "$colors.utility.green.darkest"
+            },
+            "lightest": {
+              "type": "color",
+              "value": "$colors.utility.green.darkest"
+            }
+          },
+          "warning": {
+            "clear": {
+              "type": "color",
+              "value": "$colors.utility.yellow.darkest"
+            },
+            "dark": {
+              "type": "color",
+              "value": "$colors.grayscale.125"
+            },
+            "light": {
+              "type": "color",
+              "value": "$colors.utility.yellow.darkest"
+            },
+            "lightest": {
+              "type": "color",
+              "value": "$colors.utility.yellow.darkest"
+            }
+          }
+        },
+        "breadcrumb": {
+          "current": {
+            "type": "color",
+            "value": "$colors.grayscale.100"
+          },
+          "link": {
+            "type": "color",
+            "value": "$colors.brand.dark-blue"
+          }
+        },
+        "button": {
+          "large": {
+            "emphasized": {
+              "active": {
+                "type": "color",
+                "value": "$colors.brand.shade.dark-blue.150"
+              },
+              "base": {
+                "type": "color",
+                "value": "$colors.brand.shade.dark-blue.150"
+              },
+              "disabled": {
+                "type": "color",
+                "value": "$colors.grayscale.60"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.brand.shade.dark-blue.150"
+              },
+              "hover": {
+                "type": "color",
+                "value": "$colors.brand.shade.dark-blue.150"
+              }
+            },
+            "primary": {
+              "active": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              },
+              "base": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              },
+              "disabled": {
+                "type": "color",
+                "value": "$colors.grayscale.60"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              },
+              "hover": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              }
+            },
+            "secondary": {
+              "active": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              },
+              "base": {
+                "type": "color",
+                "value": "$colors.brand.blue"
+              },
+              "disabled": {
+                "type": "color",
+                "value": "$colors.grayscale.60"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              },
+              "hover": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              }
+            },
+            "tertiary": {
+              "active": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              },
+              "base": {
+                "type": "color",
+                "value": "$colors.brand.blue"
+              },
+              "disabled": {
+                "type": "color",
+                "value": "$colors.grayscale.60"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              },
+              "hover": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              }
+            }
+          },
+          "small": {
+            "emphasized": {
+              "active": {
+                "type": "color",
+                "value": "$colors.brand.shade.dark-blue.150"
+              },
+              "base": {
+                "type": "color",
+                "value": "$colors.brand.shade.dark-blue.150"
+              },
+              "disabled": {
+                "type": "color",
+                "value": "$colors.grayscale.60"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.brand.shade.dark-blue.150"
+              },
+              "hover": {
+                "type": "color",
+                "value": "$colors.brand.shade.dark-blue.150"
+              }
+            },
+            "primary": {
+              "active": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              },
+              "base": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              },
+              "disabled": {
+                "type": "color",
+                "value": "$colors.grayscale.60"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              },
+              "hover": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              }
+            },
+            "secondary": {
+              "active": {
+                "type": "color",
+                "value": "$colors.brand.shade.dark-blue.150"
+              },
+              "base": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              },
+              "disabled": {
+                "type": "color",
+                "value": "$colors.grayscale.60"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.brand.shade.dark-blue.150"
+              },
+              "hover": {
+                "type": "color",
+                "value": "$colors.brand.shade.dark-blue.150"
+              }
+            },
+            "tertiary": {
+              "active": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              },
+              "base": {
+                "type": "color",
+                "value": "$colors.brand.blue"
+              },
+              "disabled": {
+                "type": "color",
+                "value": "$colors.grayscale.60"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              },
+              "hover": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              }
+            }
+          }
+        },
+        "chip": {
+          "base": {
+            "type": "color",
+            "value": "$colors.grayscale.100"
+          }
+        },
+        "datepicker": {
+          "calendar": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            }
+          },
+          "day": {
+            "active": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            },
+            "hover": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            },
+            "range": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            },
+            "today": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            },
+            "unavailable": {
+              "type": "color",
+              "value": "$colors.grayscale.40"
+            }
+          }
+        },
+        "footer": {
+          "cobrand-postauth": {
+            "type": "color",
+            "value": "$colors.grayscale.lightest"
+          },
+          "cobrand-preauth": {
+            "type": "color",
+            "value": "$colors.grayscale.lightest"
+          },
+          "menu": {
+            "active": {
+              "type": "color",
+              "value": "$colors.brand.dark-blue"
+            },
+            "base": {
+              "type": "color",
+              "value": "$colors.brand.light-blue"
+            },
+            "focus": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "hover": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            }
+          },
+          "postauth": {
+            "type": "color",
+            "value": "$colors.grayscale.lightest"
+          },
+          "preauth": {
+            "type": "color",
+            "value": "$colors.grayscale.lightest"
+          },
+          "submenu": {
+            "base": {
+              "type": "color",
+              "value": "$colors.brand.light-blue"
+            },
+            "focus": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "hover": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            }
+          }
+        },
+        "formfield": {
+          "base": {
+            "type": "color",
+            "value": "$colors.grayscale.100"
+          },
+          "disabled": {
+            "type": "color",
+            "value": "$colors.grayscale.60"
+          },
+          "error": {
+            "type": "color",
+            "value": "$colors.grayscale.100"
+          },
+          "readonly": {
+            "type": "color",
+            "value": "$colors.grayscale.100"
+          },
+          "success": {
+            "type": "color",
+            "value": "$colors.grayscale.100"
+          }
+        },
+        "formlabel": {
+          "base": {
+            "type": "color",
+            "value": "$colors.grayscale.100"
+          },
+          "disabled": {
+            "type": "color",
+            "value": "$colors.grayscale.60"
+          },
+          "error": {
+            "type": "color",
+            "value": "$colors.utility.red.standard"
+          },
+          "readonly": {
+            "type": "color",
+            "value": "$colors.grayscale.125"
+          },
+          "success": {
+            "type": "color",
+            "value": "$colors.utility.green.standard"
+          }
+        },
+        "header": {
+          "cart-counter": {
+            "cobrand-postauth": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "cobrand-preauth": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "logo-only": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "on-mainnav": {
+              "type": "color",
+              "value": "$colors.brand.dark-blue"
+            },
+            "postauth": {
+              "type": "color",
+              "value": "$colors.brand.dark-blue"
+            },
+            "preauth": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            }
+          }
+        },
+        "mainnav": {
+          "menu-item": {
+            "cobrand-postauth": {
+              "active": {
+                "type": "color",
+                "value": "$colors.brand.blue"
+              },
+              "base": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.brand.blue"
+              },
+              "hover": {
+                "type": "color",
+                "value": "$colors.brand.blue"
+              }
+            },
+            "cobrand-preauth": {
+              "active": {
+                "type": "color",
+                "value": "$colors.brand.blue"
+              },
+              "base": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.brand.blue"
+              },
+              "hover": {
+                "type": "color",
+                "value": "$colors.brand.blue"
+              }
+            },
+            "postauth": {
+              "active": {
+                "type": "color",
+                "value": "$colors.brand.blue"
+              },
+              "base": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.brand.blue"
+              },
+              "hover": {
+                "type": "color",
+                "value": "$colors.brand.blue"
+              }
+            },
+            "preauth": {
+              "active": {
+                "type": "color",
+                "value": "$colors.brand.blue"
+              },
+              "base": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.brand.blue"
+              },
+              "hover": {
+                "type": "color",
+                "value": "$colors.brand.blue"
+              }
+            }
+          },
+          "mobilemenu-title": {
+            "cobrand-postauth": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "cobrand-preauth": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "postauth": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "preauth": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            }
+          },
+          "submenu-item": {
+            "cobrand-postauth": {
+              "active": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              },
+              "base": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              },
+              "hover": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              }
+            },
+            "cobrand-preauth": {
+              "active": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              },
+              "base": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              },
+              "hover": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              }
+            },
+            "postauth": {
+              "active": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              },
+              "base": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              },
+              "hover": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              }
+            },
+            "preauth": {
+              "active": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              },
+              "base": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              },
+              "hover": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              }
+            }
+          }
+        },
+        "modal": {
+          "closeicon": {
+            "active": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "focus": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "hover": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            }
+          }
+        },
+        "overpanel": {
+          "backicon": {
+            "active": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "focus": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "hover": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            }
+          },
+          "closeicon": {
+            "active": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "focus": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "hover": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            }
+          },
+          "header": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            }
+          }
+        },
+        "pagination": {
+          "active": {
+            "type": "color",
+            "value": "$colors.grayscale.lightest"
+          },
+          "base": {
+            "type": "color",
+            "value": "$colors.brand.dark-blue"
+          },
+          "focus": {
+            "type": "color",
+            "value": "$colors.brand.dark-blue"
+          },
+          "hover": {
+            "type": "color",
+            "value": "$colors.brand.dark-blue"
+          }
+        },
+        "popover": {
+          "dark": {
+            "type": "color",
+            "value": "$colors.grayscale.lightest"
+          },
+          "light": {
+            "type": "color",
+            "value": "$colors.grayscale.100"
+          }
+        },
+        "progresssteps": {
+          "base": {
+            "type": "color",
+            "value": "$colors.brand.dark-blue"
+          },
+          "uncompleted": {
+            "type": "color",
+            "value": "$colors.grayscale.80"
+          }
+        },
+        "input": {
+          "item": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            },
+            "focus": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            },
+            "hover": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            }
+          },
+          "list": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            }
+          }
+        },
+        "switch": {
+          "track": {
+            "active": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            },
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            },
+            "disabled": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            }
+          }
+        },
+        "table": {
+          "header": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            }
+          },
+          "row": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            }
+          }
+        },
+        "tabs": {
+          "tabitem": {
+            "active": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            },
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            },
+            "focus": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            },
+            "hover": {
+              "type": "color",
+              "value": "$colors.grayscale.lightest"
+            }
+          }
+        },
+        "tag": {
+          "active": {
+            "type": "color",
+            "value": "$colors.grayscale.100"
+          },
+          "base": {
+            "type": "color",
+            "value": "$colors.grayscale.100"
+          },
+          "disabled": {
+            "type": "color",
+            "value": "$colors.grayscale.60"
+          },
+          "hover": {
+            "type": "color",
+            "value": "$colors.grayscale.100"
+          }
+        },
+        "tertiarynav": {
+          "active": {
+            "type": "color",
+            "value": "$colors.grayscale.125"
+          },
+          "base": {
+            "type": "color",
+            "value": "$colors.brand.dark-blue"
+          },
+          "focus": {
+            "type": "color",
+            "value": "$colors.brand.dark-blue"
+          },
+          "hover": {
+            "type": "color",
+            "value": "$colors.brand.dark-blue"
+          }
+        },
+        "tile": {
+          "checked": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            },
+            "focus": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            },
+            "hover": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            },
+            "selected-indicator": {
+              "base": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              }
+            }
+          },
+          "unchecked": {
+            "base": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            },
+            "focus": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            },
+            "hover": {
+              "type": "color",
+              "value": "$colors.grayscale.100"
+            }
+          }
+        },
+        "tooltip": {
+          "dark": {
+            "type": "color",
+            "value": "$colors.grayscale.lightest"
+          },
+          "light": {
+            "type": "color",
+            "value": "$colors.grayscale.100"
+          }
+        },
+        "typography": {
+          "default": {
+            "type": "color",
+            "value": "$colors.grayscale.100"
+          },
+          "disabled": {
+            "type": "color",
+            "value": "$colors.grayscale.60"
+          },
+          "error": {
+            "type": "color",
+            "value": "$colors.utility.red.standard"
+          },
+          "helpinfo": {
+            "type": "color",
+            "value": "$colors.brand.dark-blue"
+          },
+          "link": {
+            "dark": {
+              "active": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              },
+              "base": {
+                "type": "color",
+                "value": "$colors.brand.light-blue"
+              },
+              "disabled": {
+                "type": "color",
+                "value": "$colors.grayscale.40"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.grayscale.lightest"
+              },
+              "hover": {
+                "type": "color",
+                "value": "$colors.brand.shade.light-blue.40"
+              },
+              "visited": {
+                "type": "color",
+                "value": "$colors.grayscale.20"
+              }
+            },
+            "light": {
+              "active": {
+                "type": "color",
+                "value": "$colors.brand.blue"
+              },
+              "base": {
+                "type": "color",
+                "value": "$colors.brand.dark-blue"
+              },
+              "disabled": {
+                "type": "color",
+                "value": "$colors.grayscale.60"
+              },
+              "focus": {
+                "type": "color",
+                "value": "$colors.brand.blue"
+              },
+              "hover": {
+                "type": "color",
+                "value": "$colors.brand.shade.dark-blue.150"
+              },
+              "visited": {
+                "type": "color",
+                "value": "$colors.grayscale.100"
+              }
+            }
+          },
+          "readonly": {
+            "type": "color",
+            "value": "$colors.grayscale.125"
+          },
+          "success": {
+            "type": "color",
+            "value": "$colors.utility.green.darkest"
+          },
+          "white": {
+            "type": "color",
+            "value": "$colors.grayscale.lightest"
+          }
+        }
+      },
+      "utility": {
+        "blue": {
+          "darkest": {
+            "type": "color",
+            "value": "$colors.brand.shade.dark-blue.150"
+          },
+          "lightest": {
+            "type": "color",
+            "value": "#edf8fd"
+          },
+          "standard": {
+            "type": "color",
+            "value": "$colors.brand.dark-blue"
+          }
+        },
+        "green": {
+          "darkest": {
+            "type": "color",
+            "value": "#256700"
+          },
+          "lightest": {
+            "type": "color",
+            "value": "#f1f6ed"
+          },
+          "standard": {
+            "type": "color",
+            "value": "#3c8700"
+          }
+        },
+        "red": {
+          "darkest": {
+            "type": "color",
+            "value": "#d8171b"
+          },
+          "lightest": {
+            "type": "color",
+            "value": "#fdf0f0"
+          },
+          "standard": {
+            "type": "color",
+            "value": "#e4292f"
+          }
+        },
+        "yellow": {
+          "darkest": {
+            "type": "color",
+            "value": "#bd5700"
+          },
+          "lightest": {
+            "type": "color",
+            "value": "#fffaef"
+          },
+          "standard": {
+            "type": "color",
+            "value": "#fdb81e"
+          }
+        }
+      }
+    },
+    "fontFamilies": {
+      "font-family-bold": {
+        "type": "fontFamilies",
+        "value": "Rubik Bold"
+      },
+      "font-family-bold-italic": {
+        "type": "fontFamilies",
+        "value": "Rubik Bold Italic"
+      },
+      "font-family-italic": {
+        "type": "fontFamilies",
+        "value": "Rubik Italic"
+      },
+      "font-family-light": {
+        "type": "fontFamilies",
+        "value": "Rubik Light"
+      },
+      "font-family-light-italic": {
+        "type": "fontFamilies",
+        "value": "Rubik Light Italic"
+      },
+      "font-family-medium": {
+        "type": "fontFamilies",
+        "value": "Rubik Medium"
+      },
+      "font-family-regular": {
+        "type": "fontFamilies",
+        "value": "Rubik Regular"
+      },
+      "font-family-primary": {
+        "type": "fontFamilies",
+        "value": "Rubik"
+      }
+    },
+    "fontSize": {
+      "text0": {
+        "type": "fontSizes",
+        "value": "12px"
+      },
+      "text1": {
+        "type": "fontSizes",
+        "value": "14px"
+      },
+      "text10": {
+        "type": "fontSizes",
+        "value": "40px"
+      },
+      "text11": {
+        "type": "fontSizes",
+        "value": "48px"
+      },
+      "text12": {
+        "type": "fontSizes",
+        "value": "50px"
+      },
+      "text13": {
+        "type": "fontSizes",
+        "value": "56px"
+      },
+      "text14": {
+        "type": "fontSizes",
+        "value": "60px"
+      },
+      "text15": {
+        "type": "fontSizes",
+        "value": "64px"
+      },
+      "text16": {
+        "type": "fontSizes",
+        "value": "76px"
+      },
+      "text2": {
+        "type": "fontSizes",
+        "value": "16px"
+      },
+      "text3": {
+        "type": "fontSizes",
+        "value": "18px"
+      },
+      "text4": {
+        "type": "fontSizes",
+        "value": "20px"
+      },
+      "text5": {
+        "type": "fontSizes",
+        "value": "22px"
+      },
+      "text6": {
+        "type": "fontSizes",
+        "value": "24px"
+      },
+      "text7": {
+        "type": "fontSizes",
+        "value": "28px"
+      },
+      "text8": {
+        "type": "fontSizes",
+        "value": "32px"
+      },
+      "text9": {
+        "type": "fontSizes",
+        "value": "34px"
+      }
+    },
+    "fontWeights": {
+      "bold": {
+        "type": "fontWeights",
+        "value": 500
+      },
+      "bolder": {
+        "type": "fontWeights",
+        "value": 700
+      },
+      "boldest": {
+        "type": "fontWeights",
+        "value": 900
+      },
+      "light": {
+        "type": "fontWeights",
+        "value": 300
+      },
+      "normal": {
+        "type": "fontWeights",
+        "value": "normal"
+      },
+      "font-weight-regular": {
+        "type": "fontWeights",
+        "value": "Regular"
+      }
+    },
+    "letterSpacing": {
+      "default": {
+        "type": "letterSpacing",
+        "value": "0"
+      }
+    },
+    "lineHeights": {
+      "large": {
+        "type": "lineHeights",
+        "value": "150%"
+      },
+      "medium": {
+        "type": "lineHeights",
+        "value": "137.5%"
+      },
+      "minimum": {
+        "type": "lineHeights",
+        "value": "auto"
+      },
+      "small": {
+        "type": "lineHeights",
+        "value": "125%"
+      }
+    },
+    "paragraphSpacing": {
+      "default": {
+        "type": "paragraphSpacing",
+        "value": "0"
+      },
+      "small": {
+        "type": "paragraphSpacing",
+        "value": "8px"
+      }
+    },
+    "typography": {
+      "component": {
+        "accordion": {
+          "large-header": {
+            "description": "Accordion large header should be used to give prominence to the large accordions.",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-light",
+              "fontSize": "$fontSize.text6",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.medium",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          },
+          "small-header": {
+            "description": "Accordion small header should be used to give prominence to the small accordions.",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-regular",
+              "fontSize": "$fontSize.text2",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          }
+        },
+        "alert": {
+          "banner-body": {
+            "description": "Alert banner body should be used on the body copy of an alert banner component.",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-regular",
+              "fontSize": "$fontSize.text2",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          },
+          "banner-header": {
+            "description": "Alert banner header should be used on the header of an alert banner component",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-regular",
+              "fontSize": "$fontSize.text6",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.medium",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          },
+          "inline-body": {
+            "description": "Alert inline body should be used on the body copy of an inline alert component.",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-regular",
+              "fontSize": "$fontSize.text2",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          }
+        },
+        "badge-label": {
+          "label": {
+            "description": "Badge label also makes use of our smallest size and this should only be used in our badges.",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-medium",
+              "fontSize": "$fontSize.text2",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          }
+        },
+        "breadcrumb": {
+          "current": {
+            "description": "Breadcrumb current should be used to give within the current state of the breadcrumb component.",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-medium",
+              "fontSize": "$fontSize.text2",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          },
+          "link": {
+            "description": "Breadcrumb link should be used to give within the link state of the breadcrumb component.",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-regular",
+              "fontSize": "$fontSize.text2",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default",
+              "textDecoration": "UNDERLINE"
+            }
+          }
+        },
+        "button": {
+          "large-label": {
+            "description": "Button label large should only be used within the button component",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-medium",
+              "fontSize": "$fontSize.text4",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          },
+          "small-label": {
+            "description": "Button label small should only be used within the button component",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-medium",
+              "fontSize": "$fontSize.text2",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.small",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          }
+        },
+        "checkbox": {
+          "checked-label": {
+            "description": "Checkbox checked label should only be used within the checkbox component, checked state",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-medium",
+              "fontSize": "$fontSize.text2",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          },
+          "unchecked-label": {
+            "description": "Checkbox unchecked label should only be used within the checkbox component, unchecked state",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-regular",
+              "fontSize": "$fontSize.text2",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          }
+        },
+        "chip": {
+          "label": {
+            "description": "Chip label should only be used within the Chip component",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-regular",
+              "fontSize": "$fontSize.text2",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          }
+        },
+        "combo-link": {
+          "label": {
+            "description": "Combo link label should only be used within the combo link component",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-medium",
+              "fontSize": "$fontSize.text4",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          }
+        },
+        "datepicker": {
+          "day": {
+            "description": "Datepicker day style should only be used within the day section of the datepicker component",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-regular",
+              "fontSize": "$fontSize.text2",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.minimum",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          },
+          "header": {
+            "description": "Datepicker header style should only be used within the header of the datepicker component",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-regular",
+              "fontSize": "$fontSize.text3",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          },
+          "week": {
+            "description": "Datepicker week style should only be used within the week section of the datepicker component",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-medium",
+              "fontSize": "$fontSize.text2",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.minimum",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          }
+        },
+        "footer": {
+          "base": {
+            "description": "Footer base style can be used for all footer base styling elements.",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-regular",
+              "fontSize": "$fontSize.text2",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          },
+          "hover": {
+            "description": "Footer hover style can be used for all footer hover styling elements.",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-regular",
+              "fontSize": "$fontSize.text2",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default",
+              "textDecoration": "UNDERLINE"
+            }
+          }
+        },
+        "form": {
+          "counter-label": {
+            "description": "Form counter label style can be used for all form counter elements.",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-light",
+              "fontSize": "$fontSize.text2",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          },
+          "helpblock-label": {
+            "description": "Helpblock body style can be used for all helpblock elements.",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-regular",
+              "fontSize": "$fontSize.text1",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.small",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          },
+          "helpblock-link-label": {
+            "description": "Helpblock link label body style can be used for all helpblock elements with links.",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-regular",
+              "fontSize": "$fontSize.text1",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.small",
+              "paragraphSpacing": "$paragraphSpacing.default",
+              "textDecoration": "UNDERLINE"
+            }
+          },
+          "label": {
+            "description": "Form label style can be used for all form label elements.",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-medium",
+              "fontSize": "$fontSize.text2",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          },
+          "optional-label": {
+            "description": "Form optional label style can be used for all form optional label elements.",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-light",
+              "fontSize": "$fontSize.text2",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          },
+          "placeholder-text": {
+            "description": "Placeholder body style can be used for all field placeholder text elements.",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-regular",
+              "fontSize": "$fontSize.text1",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          }
+        },
+        "list": {
+          "text": {
+            "description": "List text should only be used in bulleted list components or styles",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-regular",
+              "fontSize": "$fontSize.text2",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.small"
+            }
+          },
+          "small-text": {
+            "description": "small list text should only be used in small bulleted list components or styles",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-regular",
+              "fontSize": "$fontSize.text1",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.small"
+            }
+          }
+        },
+        "mainnav": {
+          "menu-item": {
+            "selected": {
+              "description": "selected state should only be used in mainnav component",
+              "type": "typography",
+              "value": {
+                "fontFamily": "$fontFamilies.font-family-regular",
+                "fontSize": "$fontSize.text4",
+                "fontWeight": "$fontWeights.normal",
+                "letterSpacing": "$letterSpacing.default",
+                "lineHeight": "$lineHeights.large",
+                "paragraphSpacing": "$paragraphSpacing.default"
+              }
+            },
+            "unselected": {
+              "description": "unselected state should only be used in mainnav component",
+              "type": "typography",
+              "value": {
+                "fontFamily": "$fontFamilies.font-family-regular",
+                "fontSize": "$fontSize.text4",
+                "fontWeight": "$fontWeights.normal",
+                "letterSpacing": "$letterSpacing.default",
+                "lineHeight": "$lineHeights.large",
+                "paragraphSpacing": "$paragraphSpacing.default"
+              }
+            }
+          },
+          "submenu-item": {
+            "selected": {
+              "description": "selected state should only be used in submenu item component",
+              "type": "typography",
+              "value": {
+                "fontFamily": "$fontFamilies.font-family-regular",
+                "fontSize": "$fontSize.text2",
+                "fontWeight": "$fontWeights.normal",
+                "letterSpacing": "$letterSpacing.default",
+                "lineHeight": "$lineHeights.large",
+                "paragraphSpacing": "$paragraphSpacing.default"
+              }
+            },
+            "unselected": {
+              "description": "unselected state should only be used in submenu item component",
+              "type": "typography",
+              "value": {
+                "fontFamily": "$fontFamilies.font-family-regular",
+                "fontSize": "$fontSize.text2",
+                "fontWeight": "$fontWeights.normal",
+                "letterSpacing": "$letterSpacing.default",
+                "lineHeight": "$lineHeights.large",
+                "paragraphSpacing": "$paragraphSpacing.default"
+              }
+            }
+          },
+          "mobilemenu": {
+            "selected": {
+              "description": "selected state should only be used in mobile menu item component",
+              "type": "typography",
+              "value": {
+                "fontFamily": "$fontFamilies.font-family-regular",
+                "fontSize": "$fontSize.text4",
+                "fontWeight": "$fontWeights.normal",
+                "letterSpacing": "$letterSpacing.default",
+                "lineHeight": "$lineHeights.large",
+                "paragraphSpacing": "$paragraphSpacing.default"
+              }
+            },
+            "unselected": {
+              "description": "unselected state should only be used in mobile menu item component",
+              "type": "typography",
+              "value": {
+                "fontFamily": "$fontFamilies.font-family-regular",
+                "fontSize": "$fontSize.text4",
+                "fontWeight": "$fontWeights.normal",
+                "letterSpacing": "$letterSpacing.default",
+                "lineHeight": "$lineHeights.large",
+                "paragraphSpacing": "$paragraphSpacing.default"
+              }
+            }
+          }
+        },
+        "modal": {
+          "desktop-body": {
+            "description": "Modal desktop body should only be used in desktop version of the Modal component",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-light",
+              "fontSize": "$fontSize.text4",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.small",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          },
+          "desktop-header": {
+            "description": "Modal desktop header should only be used in desktop version of the Modal component",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-light",
+              "fontSize": "$fontSize.text7",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          },
+          "desktop-header-alert": {
+            "description": "Modal desktop header alert should only be used in the alert desktop version of the Modal component",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-regular",
+              "fontSize": "$fontSize.text6",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.medium",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          },
+          "mobile-body": {
+            "description": "Modal mobile body should only be used in mobile version of the Modal component",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-light",
+              "fontSize": "$fontSize.text4",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.small",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          },
+          "mobile-header": {
+            "description": "Modal mobile header should only be used in mobile version of the Modal component",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-light",
+              "fontSize": "$fontSize.text6",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          },
+          "mobile-header-alert": {
+            "description": "Modal mobile header alert should only be used in the alert mobile version of the Modal component",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-regular",
+              "fontSize": "$fontSize.text6",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.medium",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          }
+        },
+        "overpanel": {
+          "desktop-header": {
+            "description": "Overpanel header should only be used in the Desktop version of the Overpanel component",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-light",
+              "fontSize": "$fontSize.text10",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.minimum",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          },
+          "mobile-header": {
+            "description": "Mobile Overpanel header should only be used in the Mobile version of the Overpanel component",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-light",
+              "fontSize": "$fontSize.text8",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.minimum",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          }
+        },
+        "pagination-link-label": {
+          "description": "Pagination label should only be used within the Pagination Link component",
+          "type": "typography",
+          "value": {
+            "fontFamily": "$fontFamilies.font-family-medium",
+            "fontSize": "$fontSize.text4",
+            "fontWeight": "$fontWeights.normal",
+            "letterSpacing": "$letterSpacing.default",
+            "lineHeight": "$lineHeights.large",
+            "paragraphSpacing": "$paragraphSpacing.default"
+          }
+        },
+        "popover": {
+          "body": {
+            "description": "Popover body should only be used within the body of the Popover component",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-regular",
+              "fontSize": "$fontSize.text2",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          },
+          "header": {
+            "description": "Popover header should only be used within the header of the Popover component",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-medium",
+              "fontSize": "$fontSize.text2",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          }
+        },
+        "progress-steps": {
+          "body": {
+            "description": "Progress Steps body should only be used within the body of the Progress Steps component",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-medium",
+              "fontSize": "$fontSize.text4",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          },
+          "header": {
+            "description": "Progress Steps header should only be used within the header of the Progress Steps component",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-light",
+              "fontSize": "$fontSize.text6",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          },
+          "minimum-label": {
+            "description": "Progress Steps minimum label should only be used within the progress steps component with the minimum state",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-regular",
+              "fontSize": "$fontSize.text3",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          },
+          "number": {
+            "description": "Progress Steps number should only be used within the number of the Progress Steps component",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-regular",
+              "fontSize": "$fontSize.text6",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          }
+        },
+        "radio": {
+          "checked-label": {
+            "description": "Radio checked label should only be used within the Radio component checked state",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-medium",
+              "fontSize": "$fontSize.text2",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          },
+          "unchecked-label": {
+            "description": "Radio unchecked label should only be used within the Radio component unchecked state",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-regular",
+              "fontSize": "$fontSize.text2",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          }
+        },
+        "range-slider": {
+          "label": {
+            "description": "Range Slider label should only be used within the Rangeslider component",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-medium",
+              "fontSize": "$fontSize.text2",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          }
+        },
+        "switch": {
+          "content": {
+            "description": "Switch content should only be used within the Switch component",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-medium",
+              "fontSize": "$fontSize.text1",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          },
+          "label": {
+            "description": "Switch label should only be used within the label area of the switch component",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-regular",
+              "fontSize": "$fontSize.text2",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          }
+        },
+        "tab": {
+          "large-label": {
+            "description": "Tab large label should only be used within the tab component",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-regular",
+              "fontSize": "$fontSize.text4",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          },
+          "small-label": {
+            "description": "Tab small label should only be used within the tab component",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-regular",
+              "fontSize": "$fontSize.text2",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          }
+        },
+        "table": {
+          "action-label": {
+            "description": "Table action label should only be used in the table component indicating actions",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-medium",
+              "fontSize": "$fontSize.text2",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.minimum",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          },
+          "body": {
+            "description": "Table body should only be used in the table component",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-regular",
+              "fontSize": "$fontSize.text2",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          },
+          "header": {
+            "description": "Table header should only be used in the table component",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-medium",
+              "fontSize": "$fontSize.text2",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          }
+        },
+        "tag": {
+          "label": {
+            "description": "Tag label should only be used in the Tag component",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-regular",
+              "fontSize": "$fontSize.text2",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          }
+        },
+        "input": {
+          "selected-text": {
+            "description": "input label should only be used in components that extend Field component within UI-C",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-medium",
+              "fontSize": "$fontSize.text2",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          },
+          "unselected-text": {
+            "description": "input label should only be used in components that extend Field component within UI-C",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-regular",
+              "fontSize": "$fontSize.text2",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          }
+        },
+        "tile": {
+          "body": {
+            "description": "Tile body should only be used within the Tile component",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-regular",
+              "fontSize": "$fontSize.text2",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          },
+          "header": {
+            "description": "Tile header should only be used within the Tile component",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-medium",
+              "fontSize": "$fontSize.text2",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          }
+        },
+        "tooltip": {
+          "body": {
+            "description": "Tooltip body should only be used within the Tooltip component",
+            "type": "typography",
+            "value": {
+              "fontFamily": "$fontFamilies.font-family-regular",
+              "fontSize": "$fontSize.text2",
+              "fontWeight": "$fontWeights.normal",
+              "letterSpacing": "$letterSpacing.default",
+              "lineHeight": "$lineHeights.large",
+              "paragraphSpacing": "$paragraphSpacing.default"
+            }
+          }
+        }
+      },
+      "mobile": {
+        "hero-display": {
+          "description": "The hero display type style should only be used on pre-auth experience in hero/banner sections. This is great to highlight a value prop and consider only using it once on a page.",
+          "type": "typography",
+          "value": {
+            "fontFamily": "$fontFamilies.font-family-light",
+            "fontSize": "$fontSize.text11",
+            "fontWeight": "$fontWeights.normal",
+            "letterSpacing": "$letterSpacing.default",
+            "lineHeight": "$lineHeights.medium",
+            "paragraphSpacing": "$paragraphSpacing.default"
+          }
+        },
+        "section-display": {
+          "description": "Section displays are the largest, most prominent text styles used to highlight the topic of a particular section. There can be any number of sections on a page but can only have one section-display in a given section.",
+          "type": "typography",
+          "value": {
+            "fontFamily": "$fontFamilies.font-family-light",
+            "fontSize": "$fontSize.text10",
+            "fontWeight": "$fontWeights.normal",
+            "letterSpacing": "$letterSpacing.default",
+            "lineHeight": "$lineHeights.medium",
+            "paragraphSpacing": "$paragraphSpacing.default"
+          }
+        },
+        "section-header": {
+          "description": "Section headers are used to highlight specific segments within section. There can be any number of section headers within a section.",
+          "type": "typography",
+          "value": {
+            "fontFamily": "$fontFamilies.font-family-light",
+            "fontSize": "$fontSize.text8",
+            "fontWeight": "$fontWeights.normal",
+            "letterSpacing": "$letterSpacing.default",
+            "lineHeight": "$lineHeights.medium",
+            "paragraphSpacing": "$paragraphSpacing.default"
+          }
+        },
+        "section-subheader": {
+          "description": "Section subheaders are used to communicate additional information that the header may not have been able to fit to provide more context to the user.",
+          "type": "typography",
+          "value": {
+            "fontFamily": "$fontFamilies.font-family-light",
+            "fontSize": "$fontSize.text4",
+            "fontWeight": "$fontWeights.bold",
+            "letterSpacing": "$letterSpacing.default",
+            "lineHeight": "$lineHeights.medium",
+            "paragraphSpacing": "$paragraphSpacing.default"
+          }
+        }
+      },
+      "page": {
+        "body": {
+          "description": "Body is used for all standard copy across our digital experience.",
+          "type": "typography",
+          "value": {
+            "fontFamily": "$fontFamilies.font-family-regular",
+            "fontSize": "$fontSize.text2",
+            "fontWeight": "$fontWeights.normal",
+            "letterSpacing": "$letterSpacing.default",
+            "lineHeight": "$lineHeights.large",
+            "paragraphSpacing": "$paragraphSpacing.default"
+          }
+        },
+        "body-prominent": {
+          "description": "Body Prominent should be used in our more dense experiences where a clear hierarchy using sizing isn’t always possible. Using alongside with our body style, label offers higher degree of scanability of content.",
+          "type": "typography",
+          "value": {
+            "fontFamily": "$fontFamilies.font-family-medium",
+            "fontSize": "$fontSize.text2",
+            "fontWeight": "$fontWeights.normal",
+            "letterSpacing": "$letterSpacing.default",
+            "lineHeight": "$lineHeights.large",
+            "paragraphSpacing": "$paragraphSpacing.default"
+          }
+        },
+        "hero-display": {
+          "description": "The hero display type style should only be used on pre-auth experience in hero/banner sections. This is great to highlight a value prop and consider only using it once on a page.",
+          "type": "typography",
+          "value": {
+            "fontFamily": "$fontFamilies.font-family-primary",
+            "fontSize": "$fontSize.text7",
+            "fontWeight": "$fontWeights.font-weight-regular",
+            "letterSpacing": "$letterSpacing.default",
+            "lineHeight": "$lineHeights.medium",
+            "paragraphSpacing": "$paragraphSpacing.default",
+            "textCase": "none"
+          }
+        },
+        "legal-body": {
+          "description": "Legal body is our smallest type style and should only be reserved for legal copy",
+          "type": "typography",
+          "value": {
+            "fontFamily": "$fontFamilies.font-family-regular",
+            "fontSize": "$fontSize.text0",
+            "fontWeight": "$fontWeights.normal",
+            "letterSpacing": "$letterSpacing.default",
+            "lineHeight": "$lineHeights.large",
+            "paragraphSpacing": "$paragraphSpacing.default"
+          }
+        },
+        "link-action": {
+          "description": "Link Actions style should be used in call to action CTAs. These are slightly different than standalone links as they perform some type of bigger action that moves a customer further along their journey. These links are generally paired with buttons and if they exist on their own, an iconography is used alongside as an indicator that this is an actionable element.",
+          "type": "typography",
+          "value": {
+            "fontFamily": "$fontFamilies.font-family-regular",
+            "fontSize": "$fontSize.text2",
+            "fontWeight": "$fontWeights.normal",
+            "letterSpacing": "$letterSpacing.default",
+            "lineHeight": "$lineHeights.minimum",
+            "paragraphSpacing": "$paragraphSpacing.default",
+            "textDecoration": "UNDERLINE"
+          }
+        },
+        "link-action-small": {
+          "description": "Link Action Small can be used for links that are paired with smaller buttons. This can also be used to style prominent header navigation items.",
+          "type": "typography",
+          "value": {
+            "fontFamily": "$fontFamilies.font-family-medium",
+            "fontSize": "$fontSize.text1",
+            "fontWeight": "$fontWeights.normal",
+            "letterSpacing": "$letterSpacing.default",
+            "lineHeight": "$lineHeights.large",
+            "paragraphSpacing": "$paragraphSpacing.default",
+            "textDecoration": "UNDERLINE"
+          }
+        },
+        "link-body": {
+          "description": "Link body should be used when links are inline with body copy or within very close proximity of body copy.",
+          "type": "typography",
+          "value": {
+            "fontFamily": "$fontFamilies.font-family-regular",
+            "fontSize": "$fontSize.text2",
+            "fontWeight": "$fontWeights.normal",
+            "letterSpacing": "$letterSpacing.default",
+            "lineHeight": "$lineHeights.large",
+            "paragraphSpacing": "$paragraphSpacing.default",
+            "textDecoration": "UNDERLINE"
+          }
+        },
+        "navigation-primary": {
+          "description": "Navigation primary should be used for L1s or headers grouping navigation items together.",
+          "type": "typography",
+          "value": {
+            "fontFamily": "$fontFamilies.font-family-medium",
+            "fontSize": "$fontSize.text2",
+            "fontWeight": "$fontWeights.normal",
+            "letterSpacing": "$letterSpacing.default",
+            "lineHeight": "$lineHeights.small",
+            "paragraphSpacing": "$paragraphSpacing.default"
+          }
+        },
+        "navigation-secondary": {
+          "description": "Navigation secondary should be used to L2s or navigation items that are under a navigation primary grouping.",
+          "type": "typography",
+          "value": {
+            "fontFamily": "$fontFamilies.font-family-regular",
+            "fontSize": "$fontSize.text2",
+            "fontWeight": "$fontWeights.normal",
+            "letterSpacing": "$letterSpacing.default",
+            "lineHeight": "$lineHeights.small",
+            "paragraphSpacing": "$paragraphSpacing.default"
+          }
+        },
+        "section-display": {
+          "description": "Section displays are the largest, most prominent text styles used to highlight the topic of a particular section. There can be any number of sections on a page but can only have one section-display in a given section.",
+          "type": "typography",
+          "value": {
+            "fontFamily": "$fontFamilies.font-family-light",
+            "fontSize": "$fontSize.text6",
+            "fontWeight": "$fontWeights.normal",
+            "letterSpacing": "$letterSpacing.default",
+            "lineHeight": "$lineHeights.medium",
+            "paragraphSpacing": "$paragraphSpacing.default"
+          }
+        },
+        "section-header": {
+          "description": "Section headers are used to highlight specific segments within section. There can be any number of section headers within a section.",
+          "type": "typography",
+          "value": {
+            "fontFamily": "$fontFamilies.font-family-light",
+            "fontSize": "$fontSize.text5",
+            "fontWeight": "$fontWeights.normal",
+            "letterSpacing": "$letterSpacing.default",
+            "lineHeight": "$lineHeights.medium",
+            "paragraphSpacing": "$paragraphSpacing.default"
+          }
+        },
+        "section-subheader": {
+          "description": "Section subheaders are used to communicate additional information that the header may not have been able to fit to provide more context to the user.",
+          "type": "typography",
+          "value": {
+            "fontFamily": "$fontFamilies.font-family-light",
+            "fontSize": "$fontSize.text3",
+            "fontWeight": "$fontWeights.bold",
+            "letterSpacing": "$letterSpacing.default",
+            "lineHeight": "$lineHeights.medium",
+            "paragraphSpacing": "$paragraphSpacing.default"
+          }
+        }
+      }
+    }
+  },
+  "destination": {
+    "test": {
+      "value": "000000",
+      "type": "color"
+    }
+  },
+  "$themes": []
+}
