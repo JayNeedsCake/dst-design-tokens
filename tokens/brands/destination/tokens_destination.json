@@ -1,5 +1,4 @@
 {
-  "global": {},
   "destination": {
     "destination": {
       "colors": {
@@ -1962,7 +1961,6 @@
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "global",
       "destination"
     ]
   }
